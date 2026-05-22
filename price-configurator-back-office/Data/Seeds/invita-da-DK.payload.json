@@ -1,0 +1,780 @@
+{
+  "sections": [
+    {
+      "id": "range",
+      "type": "range",
+      "title": "Køkkenmodeller",
+      "shortTitle": "Køkken",
+      "description": "Vælg din køkkenmodel.",
+      "tooltip": {
+        "title": "Vores køkkenmodeller",
+        "description": [
+          "Vi tilbyder et bredt sortiment af forskellige køkkenmodeller. Prisen kan variere for samme model afhængigt af farve- og materialevalg."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Forever Oak",
+          "collection": "Invita",
+          "description": "Forever Oak er et unikt møde mellem æstetisk design og funktionelle detaljer, udført i solide materialer, der holder til livet. Præcis som du drømmer om at leve det.",
+          "colors": [
+            {
+              "name": "Forever Oak N/A",
+              "src": "Invita/Kitchens/Swatches/Finer_contours.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 47800,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Forever%20Oak/Forever_oak2.jpg"
+        },
+        {
+          "title": "Athena",
+          "collection": "Invita",
+          "description": "Athena er et enkelt køkken med et strømlinet design, som passer til alt fra det moderne byggeri til den moderniserede herskabslejlighed eller patriciervilla.",
+          "colors": [
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            },
+            {
+              "name": "Athena N/A",
+              "src": "Invita/Kitchens/Swatches/hojglans-titanhvid.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 35500,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Athena/athena_sand.jpg"
+        },
+        {
+          "title": "Glød",
+          "collection": "Invita",
+          "description": "Glød er på én gang organisk blødt og grafisk stramt. De vandrette årer i træet brydes smukt af de tre fingertapninger samt de massive lodrette egetræslister, der skjuler skuffeskinnerne.",
+          "colors": [
+            {
+              "name": "Glød N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 81200,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Gl%C3%B8d/Gloed_1.jpg"
+        },
+        {
+          "title": "Nordic",
+          "collection": "Invita",
+          "description": "Det romantiske Nordic-køkken er karakteriseret ved smukke fyldninger og glaslåger med sprosser. De klassiske detaljer giver Nordic et stilfuldt look, der aldrig går af mode.",
+          "colors": [
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Nordic N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 49200,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Nordic/Invita_04_0469_S2005-Y20R.jpg"
+        },
+        {
+          "title": "Northern Shaker",
+          "collection": "Invita",
+          "description": "I Northern Shaker-køkkenet bliver du mødt af solidt håndværk med moderne linjer på fyldningslågerne kombineret med olivengrønne flader. Åbn skufferne, og frem titter håndtappede træskuffer, der sætter trumf under køkkenkvaliteten.",
+          "colors": [
+            {
+              "name": "Northern shaker N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Northern shaker N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Northern shaker N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Northern shaker N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Northern shaker N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 48200,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Northern%20Shaker/Northern_shaker_4.jpg"
+        },
+        {
+          "title": "Ikon",
+          "collection": "Invita",
+          "description": "Ikon er snedkerkøkkenet, som giver dig oplevelsen af, at naturen er flyttet indenfor. Det massive egetræskøkken har smukke trælameller, som gør designet uforgængeligt.",
+          "colors": [
+            {
+              "name": "Ikon N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Ikon N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Ikon N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Ikon N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 58900,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Ikon/Invita-03_0334.jpg"
+        },
+        {
+          "title": "Square finér",
+          "collection": "Invita",
+          "description": "Square er et klassisk køkkendesign, som vækker nostalgien til live på en moderne facon. Det kvadratiske look er nemt at mikse med åbne, finerede reoler og væghængte frame-rammer.",
+          "colors": [
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Square N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 55800,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Square/10175_Invita_Square_sort-eg_Cam02.jpg"
+        },
+        {
+          "title": "Cover",
+          "collection": "Invita",
+          "description": "Designet på Cover er udført i Fenix laminat, som er enormt slidstærk og utrolig blød og behageligt at røre ved. Cover tåler hverdagen i alle henseender og er samtidig visuelt vellykket. Det er et drømmedesign til det moderne køkken.",
+          "colors": [
+            {
+              "name": "Cover N/A",
+              "src": "Invita/Kitchens/Swatches/St%C3%B8vgr%C3%B8n.png"
+            },
+            {
+              "name": "Cover Silkesgrå",
+              "src": "Invita/Kitchens/Swatches/Silkegr%C3%A5.png"
+            },
+            {
+              "name": "Cover Ultramarin",
+              "src": "Invita/Kitchens/Swatches/Ultramarin.png"
+            },
+            {
+              "name": "Cover Mat-sort",
+              "src": "Invita/Kitchens/Swatches/mat-sort.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 44300,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Cover/cover_1.jpg"
+        },
+        {
+          "title": "Everline finér",
+          "collection": "Invita",
+          "description": "Det er i høj grad det buede greb, der definerer designet på Everline-køkkenet. Det buede trægreb bløder det minimalistiske udtryk op og tilfører et naturligt strejf, der klæder de fleste hjem.",
+          "colors": [
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            },
+            {
+              "name": "Everline N/A",
+              "src": "Invita/Kitchens/Swatches/hojglans-titanhvid.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 56700,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Everline/Everline_2.jpg"
+        },
+        {
+          "title": "Comet",
+          "collection": "Invita",
+          "description": "Comet er kendetegnet ved glatte overflader af slidstærk laminat og smukke, massive trækanter.Resultatet er et praktisk og stilrent køkken, der er perfekt til den aktive familie, der elsker at lave mad og opholde sig i køkkenet.",
+          "colors": [
+            {
+              "name": "Comet N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Comet N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Comet N/A",
+              "src": "Invita/Kitchens/Swatches/mat-sort.jpg"
+            },
+            {
+              "name": "Comet N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 40000,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Comet/Comet_Everline_Main.jpg"
+        },
+        {
+          "title": "Newline",
+          "collection": "Invita",
+          "description": "Newline er skabt med et udgangspunkt i rene linjer og minimalisme uden at dit køkken skal blive kedeligt. Det er grebet, der giver modspil til de rene enkle linjer.",
+          "colors": [
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            },
+            {
+              "name": "Newline N/A",
+              "src": "Invita/Kitchens/Swatches/hojglans-titanhvid.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 44300,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Newline/Newline_2.jpg"
+        },
+        {
+          "title": "Urban",
+          "collection": "Invita",
+          "description": "Urban er et stilrent køkken, hvor der er ikke nogle greb, der stikker ud og optager plads. Derudover giver det moderne køkken uden greb et legende og elegant design, som samtidig er yderst brugervenligt.",
+          "colors": [
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/lysegraa.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Urban N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 37000,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Urban/urban_2.jpg"
+        },
+        {
+          "title": "Highline",
+          "collection": "Invita",
+          "description": "Highline er et minimalistisk køkken uden greb,der i al sin enkelthed er skabt af rene linjer og et smukt tidløs design.",
+          "colors": [
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/titan-hvid.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/design-graa.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/design-sandgraa.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/lavagraa.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/desingfarve_oliven.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/Salvie.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/Kalkgr%C3%A5.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/Bark.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/hojglans-titanhvid.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/mat-sort.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-mat-hvid.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-sortbejdset-eg.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-eg-natur.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            },
+            {
+              "name": "Highline N/A",
+              "src": "Invita/Kitchens/Swatches/Finer_contours.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 41700,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Highline/Athena_Highline_Sort_eg_Comet_Mat_sort_1.jpg"
+        },
+        {
+          "title": "Dark Nature",
+          "collection": "Invita",
+          "description": "Dark Nature er inspireret af et varmt og enkelt skandinavisk formsprog. Den mørke træglød samt de naturlige og rå materialer skaber et varmt og eksklusivt køkken med et unikt udtryk.",
+          "colors": [
+            {
+              "name": "Dark nature N/A",
+              "src": "Invita/Kitchens/Swatches/finer-dark-nature.jpg"
+            }
+          ],
+          "prices": {
+            "small": 0,
+            "medium": 60200,
+            "large": 0
+          },
+          "image": "Invita/Kitchens/Dark%20nature/Dark_nature_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Køkkenstørrelse",
+      "shortTitle": "Størrelse",
+      "type": "units",
+      "description": "Vælg størrelse på dit køkken.",
+      "tooltip": {
+        "title": "Køkkenstørrelse",
+        "description": [
+          "I et mellemstørrelse køkken får du eksempelvis plads til 5 underskabe, 2 overskabe og 3 højskabe."
+        ]
+      },
+      "cards": [
+        {
+          "type": "medium",
+          "title": "Mellemstørrelse",
+          "price": 0,
+          "image": "https://assets.nobiadigital.com/image/upload/v1673525426/Invita/Illustrations/medium.png"
+        }
+      ]
+    },
+    {
+      "id": "worktops",
+      "title": "Bordplade",
+      "type": "simple",
+      "description": "Vælg hvilken type bordplade, du vil have i dit køkken.",
+      "tooltip": {
+        "title": "Vores bordplader",
+        "description": [
+          "Vælg mellem laminat, massivt træ og granit. Kombiner med størrelsen på køkkenet og få et priseksempel.",
+          "Vi tilbyder også andre bordplader end dem, der er vist i prisberegneren. Er du interesseret i at se alle bordplader, kan du finde dem [her](https://www.invita.dk/kokken/materialer-og-tilbehor/bordplader/)."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Laminat",
+          "description": "Laminatbordplader fås i et væld af farver, som kan gøre dit køkken unikt. Laminatbordplader er kendetegnet ved, at de er utroligt holdbare og nemme at vedligeholde.",
+          "prices": {
+            "small": 0,
+            "medium": 3995,
+            "large": 0
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Massivt træ",
+          "description": "Træbordpladerne kommer i forskellige prisklasser, og kvalitetstræ koster selvsagt lidt mere. Træbordpladerne nemme at vedligeholde, da ridser nemt kan slibes af, så bordpladen står som ny.",
+          "prices": {
+            "small": 0,
+            "medium": 7995,
+            "large": 0
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/ek.jpg"
+        },
+        {
+          "title": "Granit",
+          "description": "De smukke granitbordplader fås i et væld af mønstre og farver, og vælger du en bordplade i granit er du sikker på at få et helt unikt køkken. En granitbordplade kræver ikke meget vedligehold, og med denne bordplade får du høj kvalitet, som holder i mange år.",
+          "prices": {
+            "small": 0,
+            "medium": 18995,
+            "large": 0
+          },
+          "image": "Invita/granit_bordplade.jpg"
+        },
+        {
+          "title": "Marmor",
+          "description": "De smukke marmorbordplader fås i et væld af mønstre og farver, og vælger du en bordplade i marmor er du sikker på at få et helt unikt køkken. En marmorbordplade kræver meget vedligehold, med denne bordplade får du høj kvalitet, som holder i mange år.",
+          "prices": {
+            "small": 0,
+            "medium": 14995,
+            "large": 0
+          },
+          "image": "Marbodal/B%C3%A4nkskivor/Marbodal_laminat_Modella_marmor_643_2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "title": "Estimat",
+      "type": "summary",
+      "description": "",
+      "tooltip": {}
+    }
+  ],
+  "messages": {
+    "app.routes.main-title": "Prisindikator - få et priseksempel på dit nye køkken",
+    "app.routes.home.path": "/",
+    "app.routes.home.title": "Hjem",
+    "app.header.title": "Priseksempel - hvad koster et køkken?",
+    "app.header.description": "Her får du et bud på, hvad prisen for dit nye Invita-køkken bliver. Vælg køkkenmodel, køkkenets størrelse og bordplade og få et priseksempel på dit køkken. Vil du have hjælp til at designe dit drømmekøkken, så book et møde med vores dygtige køkkenkonsulenter.",
+    "app.header.readMore": "Læs mere",
+    "app.header.readLess": "Læs mindre",
+    "app.bada.title": "Book et designmøde",
+    "app.bada.instore-and-online.description": "Vi kan mødes digitalt, hjemme hos dig eller i butikken.",
+    "app.bada.expert-guidance.description": "Når du er klar, tegner vi dit køkken og giver dig et tilbud baseret på dine ønsker og behov.",
+    "app.bada.call-to-action.description": "Book møde",
+    "app.bada.call-to-action.link": "https://www.invita.dk/book-designmode/",
+    "app.bada.img.src": "https://dgg9enyjv-ressh.cloudinary.com/image/upload/v1646396556/Invita/BADA/Invita-m%C3%B8de_2A.jpg",
+    "app.finance.terms-and-conditions.link": "https://www.invita.dk/hvorfor-invita/finansiering/",
+    "app.finance.terms-and-conditions.description": "Finansieringsmuligheder",
+    "app.components.summary.title": "Beregn priseksempel:",
+    "app.components.summary.icon-url": "https://assets.nobiadigital.com/image/upload/v1655811547/Invita/Icons/arrow-down-pc.svg",
+    "app.components.cost-summary.title": "Beregnet priseksempel:",
+    "app.components.cost-summary.alternative": "eller",
+    "app.components.cost-summary.per-month": "om måneden",
+    "app.components.cost-summary.info": "Månedlige omkostninger i",
+    "app.components.cost-summary.months": "måneder",
+    "app.components.email.title": "Få tilsendt dit priseksempel",
+    "app.components.email.description": "Skriv din mailadresse, så sender vi dig dit priseksempel.",
+    "app.components.email.placeholder": "Din e-mailadresse",
+    "app.components.email.error": "Skriv en gyldig mailadresse",
+    "app.components.email.opt-in": "Jeg vil gerne modtage nyhedsbreve med spændende nyheder og inspiration fra Invita.",
+    "app.components.email.call-to-action": "Send",
+    "app.components.email.sent.title": "Priseksempel sendt",
+    "app.components.email.sent.description.pre-email": "En email er sendt til",
+    "app.components.email.sent.description.post-email": "med dit detaljerede priseksempel.",
+    "app.components.email.sent.call-to-action": "Beregn et nyt priseksempel",
+    "app.components.email.book-a-meeting.call-to-action": "Book et designmøde",
+    "app.components.login.button": "Se dit priseksempel",
+    "app.components.login.modal.title": "Næsten der – bare ét trin mere",
+    "app.components.login.modal.description": "Vi ved, at det er et ekstra trin, og vi sætter pris på din tålmodighed. For at se dine resultater skal du enten logge ind på din eksisterende konto eller oprette en ny.",
+    "app.components.login.modal.login": "Log ind",
+    "app.components.login.modal.createAccount": "Opret ny konto",
+    "app.components.login.modal.or": "Eller",
+    "app.components.price-band.currency": "$",
+    "app.components.card.units": "enheder",
+    "app.components.card.from": "Fra ",
+    "app.components.installation.title": "Get installation estimate",
+    "app.components.installation.description": "Tell us a bit more so we can give you a  preliminary price for installation.",
+    "app.components.installation.postal-code": "Post code",
+    "app.components.installation.postal-code-info": "for installation location",
+    "app.components.installation.high-rise": "If upstairs, does the installation location have lift access?",
+    "app.components.installation.high-rise-info": "Please select this if there is a flight of stairs required for access.",
+    "app.components.installation.parking-difficult": "Is parking difficult where you live?",
+    "app.components.installation.parking-difficult-info": "A pre-fit survey will determine if parking issues add extra costs.",
+    "app.components.installation.yes": "Yes",
+    "app.components.installation.no": "No",
+    "app.components.installation.price": "Your preliminary installation price",
+    "app.components.installation.price-estimate": "Price estimate",
+    "app.components.installation.save-and-close": "Save and close",
+    "app.components.installation.close": "Close",
+    "app.country.code": "da-DK",
+    "app.country.currency": "DKK"
+  }
+}

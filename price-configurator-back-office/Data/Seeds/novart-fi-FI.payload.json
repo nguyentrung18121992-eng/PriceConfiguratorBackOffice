@@ -1,0 +1,557 @@
+{
+  "sections": [
+    {
+      "id": "range",
+      "type": "range",
+      "title": "Keittiömallit",
+      "shortTitle": "Keittiömallit",
+      "description": "Valitse mieleisesi malli alla olevista vaihtoehdoista.",
+      "tooltip": {
+        "title": "Keittiömallistomme",
+        "description": [
+          "Valikoimastamme löytyy keittiömalleja jokaiseen tyyliin ja makuun. Ovimallien hinta saattaa vaihdella valitun värin ja materiaalin mukaan."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Nordic Nature",
+          "collection": "Novart",
+          "description": "Kaunis, ruskeaksi petsattu viiluovi elävöittää keittiötä luonnollisella pinnan vaihtelulla. Ovi antaa keittiölle modernin ilmeen ja kutsuu luonnon kotiisi.",
+          "colors": [
+            {
+              "name": "Nøtt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1629981873/Marbodal/Kitchen%20model/Signatur%20Ekbacken/marbodal-signatur-ekbacken-kokso-hogskap.jpg"
+            }
+          ],
+          "prices": {
+            "small": 8787,
+            "medium": 9295,
+            "large": 19332
+          },
+          "image": "/Marbodal/Kitchen%20model/Signatur%20Ekbacken/marbodal-signatur-ekbacken-kokso-hogskap.jpg",
+          "filterWorktops": [
+            "Laminaatti (Nordic Nature)",
+            "Kivitaso (Nordic Nature)",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Nordic Elegance",
+          "collection": "Novart",
+          "description": "Skandinaavinen klassikko modernilla otteella.Näyttävässä massiivitammisessa ovimallissa jokainen puusäle toimii vetimenä ja tekee pinnasta yhtenäisen.",
+          "colors": [
+            {
+              "name": "Valkaistu",
+              "src": "Novart/Swatches/535_tammisäleovi_valkaistu_HR16.jpg"
+            },
+            {
+              "name": "Lv",
+              "src": "Novart/Swatches/529_tammisäleovi_lv_HR16.jpg"
+            },
+            {
+              "name": "Musta",
+              "src": "Novart/Swatches/53B_tammisäleovi_musta_HR16.jpg"
+            }
+          ],
+          "prices": {
+            "small": 6903,
+            "medium": 8892,
+            "large": 16761
+          },
+          "image": "/Sigdal/Kitchens/Models/Eikeli/Sigdal-Eikeli-Lin-03.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Willa",
+          "collection": "Novart",
+          "description": "Yhdistele klassikkoelementtejä moderniin nostaen rakkaimmat esineet rohkeasti esille. Keittiön merkittävä elementti ovipääty on saatavilla väreissä Huurre, Pilvi, Ukkonen, Tähkä ja Havu.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "Marbodal/Kök/Swatches/Swatch_Frost-vit.png"
+            },
+            {
+              "name": "Moln",
+              "src": "Marbodal/Kök/Swatches/Swatch_Moln.png"
+            },
+            {
+              "name": "Aska",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_%C3%85ska.png"
+            },
+            {
+              "name": "Bark",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Bark.png"
+            },
+            {
+              "name": "Tall",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Tall.png"
+            }
+          ],
+          "prices": {
+            "small": 6069,
+            "medium": 6587,
+            "large": 12506
+          },
+          "image": "Novart/Kitchen%20models/VantaanTammistonmyymala_Willa_2.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Maalatut sileät",
+          "collection": "Novart",
+          "description": "Valikoimasta on valittavissa runsaasti erilaisia tyylejä muotoilun mukaan. Keittiöovet toimivat hyvin kahvoilla tai ilman. Saatavilla kaikissa Luonto-värikokoelman väreissä.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Frost-vit.png"
+            },
+            {
+              "name": "Moln",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Moln.png"
+            },
+            {
+              "name": "Aska",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_%C3%85ska.png"
+            },
+            {
+              "name": "Bark",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Bark.png"
+            },
+            {
+              "name": "Tall",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Tall.png"
+            },
+            {
+              "name": "Hav",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Hav.png"
+            },
+            {
+              "name": "Sand",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Sand.png"
+            },
+            {
+              "name": "Frö",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Fr%C3%B6.png"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/SAMMAL_trendiv%C3%A4ri_tummanvihre%C3%A4.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/USVA_trendiv%C3%A4ri_usvanvalkoinen.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/KARPALO_trendiv%C3%A4ri_punainen.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/L%C3%84HDE__96Y_sinivihre%C3%A4_HR5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 4919,
+            "medium": 5323,
+            "large": 10953
+          },
+          "image": "Marbodal/K%C3%B6k/Arkitekt%20Plus/Sand/Arkitektplus-beige-k%C3%B6k-Marbodal.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Maalatut kehykselliset",
+          "collection": "Novart",
+          "description": "Laaja valikoima romanttisesta klassiseen keittiötyyliin, joka voidaan muotoilla oven kehyksen muodoilla, väreillä ja kahvalla. Saatavilla kaikissa Luonto-värikokoelman väreissä.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Frost-vit.png"
+            },
+            {
+              "name": "Moln",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Moln.png"
+            },
+            {
+              "name": "Aska",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_%C3%85ska.png"
+            },
+            {
+              "name": "Bark",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Bark.png"
+            },
+            {
+              "name": "Tall",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Tall.png"
+            },
+            {
+              "name": "Hav",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Hav.png"
+            },
+            {
+              "name": "Sand",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Sand.png"
+            },
+            {
+              "name": "Frö",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_Fr%C3%B6.png"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/SAMMAL_trendiv%C3%A4ri_tummanvihre%C3%A4.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/USVA_trendiv%C3%A4ri_usvanvalkoinen.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/KARPALO_trendiv%C3%A4ri_punainen.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/L%C3%84HDE__96Y_sinivihre%C3%A4_HR5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 5525,
+            "medium": 5813,
+            "large": 12382
+          },
+          "image": "Marbodal/K%C3%B6k/Lind%C3%B6/Marbodal_Lind%C3%B6_sand_u-k%C3%B6k.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Maalatut vedinuralliset",
+          "collection": "Novart",
+          "description": "Minimalistinen keittiö, jonka oveen on integroitu kahva, joka luo näyttävän linjakkuuden. Tyylikäs ja moderni valinta.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "/Marbodal/K%C3%B6k/Swatches/Swatch_Frost-vit.png"
+            },
+            {
+              "name": "Aska",
+              "src": "Marbodal/K%C3%B6k/Swatches/Swatch_%C3%85ska.png"
+            }
+          ],
+          "prices": {
+            "small": 5644,
+            "medium": 5884,
+            "large": 12476
+          },
+          "image": "Marbodal/K%C3%B6k/Viken/marbodal_viken-aska-mellangra-marbodal_hero_224_RET.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Puu- ja viilu",
+          "collection": "Novart",
+          "description": "Oven hienovarainen puusyykuvio elävöittää pintaa ja tekee ovesta skandinaaviseen makuun soveltuvan.",
+          "colors": [
+            {
+              "name": "",
+              "src": "Novart/Swatches/739_Luonnonvari_tammi_pystyviiluovi.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/73S_tammi_pystyviiluovi_valkaistutammi_HR13.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/733_tammi_pystyviiluovi_harmaa_HR11.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/73OA-Ruskea_tammi_pystyviiluovi.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/73B_tammi_pystyviiluovi_Musta_HR13.jpg"
+            }
+          ],
+          "prices": {
+            "small": 6410,
+            "medium": 6558,
+            "large": 14642
+          },
+          "image": "Invita/Kitchens/Athena/invita_ry_new_001.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Melamiini- ja laminaatti",
+          "collection": "Novart",
+          "description": "Luo upea kokonaisuus tyylistä tinkimättä helppohoitoisella ja kovaakin kulutusta kestävällä materiaalilla. Sopiva myös hieman huolettomammalle asujalle.",
+          "colors": [
+            {
+              "name": "",
+              "src": "Novart/Swatches/141_valkoinen_melamiiniovi_HR2.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/196_vaalea_tammi_melamiiniovi_HR2.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/168_mikrolaminaattiovi_ruskea-puusyy_HR5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 4709,
+            "medium": 5185,
+            "large": 10454
+          },
+          "image": "Marbodal/K%C3%B6k/Malevik/Malevik%20Brun%202022/marbodal_malevik_brun_kokso.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        },
+        {
+          "title": "Supermattalaminaatti",
+          "collection": "Novart",
+          "description": "Tyylikäs ja kestävä valinta keittiöön. Supermatan pinnasta valo ei heijastu ja himmeässä pinnassa sormenjäljet eivät näy helposti.",
+          "colors": [
+            {
+              "name": "",
+              "src": "Novart/Swatches/439_valkoinen_supermattalaminaatti.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/441_musta_supermattalaminaatti.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/442_harmaa_supermattalaminaatti.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/443_vaaleaharmaa_supermattalaminaatti.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/447_pistaasinvihrea_supermattalaminaatti.jpg"
+            },
+            {
+              "name": "",
+              "src": "Novart/Swatches/448_tummansininen_supermattalaminaatti.jpg"
+            }
+          ],
+          "prices": {
+            "small": 6211,
+            "medium": 6360,
+            "large": 13986
+          },
+          "image": "Novart/Customer%20kitchen/Asuntomessut_2022_Finnlog_1.jpg",
+          "filterWorktops": [
+            "Laminaatti",
+            "Kivitaso",
+            "Ruostumaton teräs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Keittiön koko",
+      "shortTitle": "Keittiön koko",
+      "type": "units",
+      "description": "Valitse keittiön koko.",
+      "tooltip": {
+        "title": "Keittiön koko",
+        "description": [
+          "Pienet keittiöt ovat yleensä I-muotoisia kaappien ollessa yhdellä seinällä, kooltaan noin 10 m2.",
+          "Keskikokoiset keittiöt ovat useimmiten L-muotoisia tai neliöitä, kooltaan noin 15 m2.",
+          "Suuret keittiöt ovat kooltaan noin 20 m2 tai enemmän sisältäen saarekkeen.",
+          "Hinnat ovat laskettu ilman kodinkoneita ja kuvan piirroksen kaapistojen lukumäärän mukaan."
+        ]
+      },
+      "cards": [
+        {
+          "type": "small",
+          "title": "Pieni alkaen",
+          "price": 0,
+          "image": "Novart/Price%20Configurator/Units/units-small.png"
+        },
+        {
+          "type": "medium",
+          "title": "Keskikokoinen alkaen",
+          "price": 0,
+          "image": "Novart/Price%20Configurator/Units/units-medium.png"
+        },
+        {
+          "type": "large",
+          "title": "Suuri alkaen",
+          "price": 0,
+          "image": "Novart/Price%20Configurator/Units/units-large.png"
+        }
+      ]
+    },
+    {
+      "id": "worktops",
+      "title": "Työtasot",
+      "type": "simple",
+      "description": "Valitse haluamasi keittiötason tyyli.",
+      "tooltip": {
+        "title": "Työtasomallistomme",
+        "description": [
+          "Valitse laminaatin, puun, kivitason ja teräksen väliltä saadaksesi ajatuksen hintatasosta. Tarjoamme laajan valikoiman työtasoja eri materiaaleissa, joten voit valita alla olevien tasojen sijaan jonkin muun."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Laminaatti (Nordic Nature)",
+          "description": "Helppohoitoinen, kestävä ja tyylikäs sekä edullinen valinta. Valikoimissamme on laminaattitasoja monilla eri väreillä sekä pintavaihtoehdoilla.",
+          "prices": {
+            "small": 766,
+            "medium": 1003,
+            "large": 1493
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Laminaatti",
+          "description": "Helppohoitoinen, kestävä ja tyylikäs sekä edullinen valinta. Valikoimissamme on laminaattitasoja monilla eri väreillä sekä pintavaihtoehdoilla.",
+          "prices": {
+            "small": 367,
+            "medium": 482,
+            "large": 802
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Kivitaso",
+          "description": "Kestävimpiä materiaaleja maailmassa, luo ainutlaatuista ja aitoa tunnetta keittiöön. Valikoimassamme on kivi-, kvartsi- sekä graniittitasoja.",
+          "prices": {
+            "small": 2278,
+            "medium": 2764,
+            "large": 4024
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/granit.jpg"
+        },
+        {
+          "title": "Kivitaso (Nordic Nature)",
+          "description": "Kestävimpiä materiaaleja maailmassa, luo ainutlaatuista ja aitoa tunnetta keittiöön. Valikoimassamme on kivi-, kvartsi- sekä graniittitasoja.",
+          "prices": {
+            "small": 2347,
+            "medium": 2852,
+            "large": 4213
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/granit.jpg"
+        },
+        {
+          "title": "Ruostumaton teräs",
+          "description": "Erittäin hygieeninen materiaali, joka on helppo pitää puhtaana. Moderni vaihtoehto, johon on saatavilla myös kauniita pintakuviointeja.",
+          "prices": {
+            "small": 1055,
+            "medium": 1155,
+            "large": 1733
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/rostfri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "title": "Estimat",
+      "type": "summary",
+      "description": "",
+      "tooltip": {}
+    }
+  ],
+  "messages": {
+    "app.routes.main-title": "Priskonfigurator",
+    "app.routes.home.path": "/",
+    "app.routes.home.title": "Hem",
+    "app.header.title": "Hintaesimerkit - kuinka paljon keittiö maksaa?",
+    "app.header.description": "Saat arvion uuden keittiösi kustannuksista valitsemalla ovimallin, keittiön koon ja työtason. Pääset parhaiten eteenpäin varaamalla ajan keittiösuunnittelijamme kanssa, jotta saat suunniteltua ja hinnoiteltua juuri sinun keittiösi, ja me autamme sinua luomaan unelmiesi keittiön.",
+    "app.header.readMore": "Lue lisää",
+    "app.header.readLess": "Lue vähemmän",
+    "app.bada.title": "Varaa aika keittiösuunnittelijalle",
+    "app.bada.instore-and-online.description": "Tapaamiset myymälässä, verkossa tai omassa kodissasi.",
+    "app.bada.expert-guidance.description": "Laadimme kanssasi räätälöidyn 3D-suunnittelun ja tarjouksen.",
+    "app.bada.call-to-action.description": "Varaa nyt",
+    "app.bada.call-to-action.link": "https://www.novart.fi/varaa-suunnitteluaika/",
+    "app.bada.img.src": "https://dgg9enyjv-ressh.cloudinary.com/image/upload/w_900/v1641813441/Sigdal/Mennesker/Sigdal-Ansatte-Jessheim-2001-12.jpg",
+    "app.finance.title": "Finansiera ditt kök",
+    "app.finance.description": "Med våra flexibla lösningar finns det något för alla budgetar, ditt drömkök kan snart vara färdigt.",
+    "app.finance.buy-now-pay-later.title": "Köp nu, betala senare",
+    "app.finance.buy-now-pay-later.description-1": "Lägg din order och betala om den ett år",
+    "app.finance.buy-now-pay-later.description-2": "Betala per månad efter de första 12 månaderna",
+    "app.finance.buy-now-pay-later.description-3": "Det mest populära finansierings-alternativet",
+    "app.finance.pay-monthly.title": "Betala per månad",
+    "app.finance.pay-monthly.description-1": "Sprid ut dina kostnader per månad",
+    "app.finance.pay-monthly.description-2": "Välj mellan olika betalningsplaner",
+    "app.finance.pay-monthly.description-3": "12, 24 eller 36 månader",
+    "app.finance.pay-upfront.title": "Betala direkt",
+    "app.finance.pay-upfront.description-1": "Betala en deposition på endast 950kr kr för att lägga din order",
+    "app.finance.pay-upfront.description-2": "Den resterande kostnaden betalas senast två veckor innan leveransdagen",
+    "app.finance.pay-upfront.description-3": "Inga finansiella tjänster behövs",
+    "app.finance.terms-and-conditions.description": "Finansieringsmöjligheter",
+    "app.components.summary.title": "Hinta-arvio alkaen:",
+    "app.components.cost-summary.title": "Hinta-arvio alkaen:",
+    "app.components.cost-summary.alternative": "eller",
+    "app.components.summary.icon-url": "https://assets.nobiadigital.com/image/upload/v1655811547/Invita/Icons/arrow-down-pc.svg",
+    "app.components.cost-summary.per-month": "per månad",
+    "app.components.cost-summary.info": "Månadskostnad i",
+    "app.components.cost-summary.months": "månader",
+    "app.components.email.title": "Tallenna hinta-arvio",
+    "app.components.email.description": "Täytä sähköpostiosoitteesi, niin lähetämme sinulle koosteen hinta-arviosta.",
+    "app.components.email.placeholder": "Sähköpostiosoite",
+    "app.components.email.error": "Kirjoita voimassa oleva sähköpostiosoite",
+    "app.components.email.opt-in": "Haluan saada jatkossa sisustusinspiraatiota ja upeita tarjouksia Novartilta.",
+    "app.components.email.call-to-action": "Lähetä",
+    "app.components.email.sent.title": "Hinta-arvio tallennettu",
+    "app.components.email.sent.description.pre-email": "Hinta-arviosi on lähetetty",
+    "app.components.email.sent.description.post-email": " ",
+    "app.components.email.sent.call-to-action": "Lähetä uusi hinta-arvio",
+    "app.components.email.book-a-meeting.call-to-action": "Varaa aika keittiösuunnittelijalle",
+    "app.components.login.button": "Se hinta-arvio",
+    "app.components.login.modal.title": "Melkein valmista – vain yksi askel jäljellä",
+    "app.components.login.modal.description": "Tiedämme, että tämä on ylimääräinen vaihe, ja arvostamme kärsivällisyyttäsi. Nähdäksesi tuloksesi sinun on joko kirjauduttava olemassa olevalle tilillesi tai luotava uusi tili.",
+    "app.components.login.modal.login": "Kirjaudu sisään",
+    "app.components.login.modal.createAccount": "Luo uusi tili",
+    "app.components.login.modal.or": "Tai",
+    "app.components.price-band.currency": "£",
+    "app.components.card.units": "enheter",
+    "app.components.card.from": "Alkaen ",
+    "app.components.installation.title": "Get installation estimate",
+    "app.components.installation.description": "Tell us a bit more so we can give you a  preliminary price for installation.",
+    "app.components.installation.postal-code": "Post code",
+    "app.components.installation.postal-code-info": "for installation location",
+    "app.components.installation.high-rise": "If upstairs, does the installation location have lift access?",
+    "app.components.installation.high-rise-info": "Please select this if there is a flight of stairs required for access.",
+    "app.components.installation.parking-difficult": "Is parking difficult where you live?",
+    "app.components.installation.parking-difficult-info": "A pre-fit survey will determine if parking issues add extra costs.",
+    "app.components.installation.yes": "Yes",
+    "app.components.installation.no": "No",
+    "app.components.installation.price": "Your preliminary installation price",
+    "app.components.installation.price-estimate": "Price estimate",
+    "app.components.installation.save-and-close": "Save and close",
+    "app.components.installation.close": "Close",
+    "app.country.code": "fi-FI",
+    "app.country.currency": "EUR"
+  }
+}

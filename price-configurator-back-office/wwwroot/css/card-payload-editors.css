@@ -1,0 +1,16 @@
+.card-kv-editor .card-kv-key-cell {
+    width: 7rem;
+}
+
+.card-kv-editor table {
+    margin-bottom: 0.5rem;
+}
+
+.card-images-editor .card-img-set .card-header {
+    background-color: var(--bs-tertiary-bg, #f8f9fa);
+}
+
+.card-images-editor .card-img-path-row input {
+    font-family: var(--bs-font-monospace, monospace);
+    font-size: 0.875rem;
+}

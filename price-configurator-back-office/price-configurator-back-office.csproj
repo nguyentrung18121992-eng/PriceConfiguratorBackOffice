@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>PriceConfiguratorBackoffice</RootNamespace>
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+    <UserSecretsId>price-configurator-back-office-dev</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nobia.Backend.ApplicationInsights.AspNetCore" Version="3.7.0" />
+    <PackageReference Include="Nobia.Backend.Authentication.AspNetCore" Version="3.3.9" />
+    <PackageReference Include="Nobia.Backend.DataProtection" Version="3.6.0" />
+    <PackageReference Include="Nobia.Backend.Logging" Version="3.4.0" />
+    <PackageReference Include="Nobia.Backend.LoginSupport" Version="3.3.9" />
+    <PackageReference Include="Nobia.Backend.TokenGenerator" Version="3.3.0" />
+    <PackageReference Include="Nobia.CmsToolkit" Version="1.26.65" />
+    <PackageReference Include="NSwag.AspNetCore" Version="14.2.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,743 @@
+{
+  "sections": [
+    {
+      "id": "range",
+      "type": "range",
+      "title": "Våre kjøkkenmodeller",
+      "shortTitle": "Kjøkken",
+      "description": "Velg din favoritmodell",
+      "tooltip": {
+        "title": "",
+        "description": [
+          "Norema tilbyr et bredt utvalg kjøkken i ulike stiler og priser. Vi har både flatpakket kjøkkenog ferdig monterte kjøkken klare for montering på vegg. For nøyaktige priser kontakt din nærmeste Noremaforhandler."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Pluss",
+          "collection": "Norema",
+          "description": "Nett og moderne modell med slette fronter i en varm og mettet gråtone. Gjennom sin nøytrale og lavmælte design, er dette et kjøkken som elegant kan matche alle tenkelige interiørstiler. Pluss passer like godt i en byleilighet som i hytta på fjellet. Kombiner gjerne med hvite veggflater og tilbehør i stål.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Mørk grå",
+              "src": "Norema/Farger/M%C3%B8rk_Gr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 47825,
+            "medium": 55425,
+            "large": 79400
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Pluss_Kvadrat_Vit__Home_v5.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Fager",
+          "collection": "Norema",
+          "description": "Et kjøkken som virkelig lever opp til navnet sitt. Med sine enkle, tradisjonsrike speilfronter har Fager et utseende som stråler av klassisk ynde og sjarm, og som gir deg den herlige følelsen av sommer på landet. Vakre art nouveau-inspirerte vitrinedører med stor- og smårutet sprossemønster er kronen på verket.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Beige",
+              "src": "Norema/Farger/Beige_S_2005-Y20R.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            },
+            {
+              "name": "Mørk grå",
+              "src": "Norema/Farger/M%C3%B8rk_Gr%C3%A5.jpg"
+            },
+            {
+              "name": "Lingrønn",
+              "src": "Norema/Farger/Lingr%C3%B8nn_NCS_S_2005-G10Y.jpg"
+            },
+            {
+              "name": "Grønn",
+              "src": "Norema/Farger/Gr%C3%B8nn_NCS_S_5005-G50Y.jpg"
+            },
+            {
+              "name": "Mørk blå",
+              "src": "Norema/Farger/M%C3%B8rk_bl%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 58175,
+            "medium": 66462,
+            "large": 98412
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Fager_Home_Fager_Home_v8.0004.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Trapes",
+          "collection": "Norema",
+          "description": "Klar for å tenke annerledes? Trapes er en utpreget mix-and match-modell som innbyr til et lekent og kreativt kjøkkenmiljø. Her kan du boltre deg med f.eks. aluminium vitrinedører, en luftig frokostbar og åpne hyller som matcher en industriell vindusnisje. Vips! Så har du et heftig kjøkkenlook, som en bar på Ibiza! Modellen finnes i utførelsene ask, eik og sort eik.",
+          "colors": [
+            {
+              "name": "Eik",
+              "src": "Norema/Farger/Eik.jpg"
+            },
+            {
+              "name": "Sort eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            }
+          ],
+          "prices": {
+            "small": 63300,
+            "medium": 72187,
+            "large": 110225
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Trapes_Home_Trapes_Home_v9.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Areal",
+          "collection": "Norema",
+          "description": "Velkommen til duggfrisk og nordisk interiørdesign. For deg som ønsker et gladkjøkken som smiler fra morgen til kveld. Med sine slette fronter har Areal-modellene et rentog grafisk uttrykk med store muligheter for personlige designløsninger. Fåes i fargene Klassisk hvit, beige, lys grå, mellomgrå, mørk grå, lingrønn, grønn, mørk blå.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Beige",
+              "src": "Norema/Farger/Beige_S_2005-Y20R.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            },
+            {
+              "name": "Mørk grå",
+              "src": "Norema/Farger/M%C3%B8rk_Gr%C3%A5.jpg"
+            },
+            {
+              "name": "Lingrønn",
+              "src": "Norema/Farger/Lingr%C3%B8nn_NCS_S_2005-G10Y.jpg"
+            },
+            {
+              "name": "Grønn",
+              "src": "Norema/Farger/Gr%C3%B8nn_NCS_S_5005-G50Y.jpg"
+            },
+            {
+              "name": "Mørk blå",
+              "src": "Norema/Farger/M%C3%B8rk_bl%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 49950,
+            "medium": 56950,
+            "large": 82400
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Areal_Home_v7.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "System",
+          "collection": "Norema",
+          "description": "System fremstår som et delikat og pyntelig staskjøkken i ren og lekker design. Joda, det også. Men denne modellens store fortrinn ligger i de robuste frontene i høytrykkslaminat, som er markedets mest slitesterke materiale for kjøkkeninnredning. Tåler godt slag og støt. Suveren vaskbarhet. Et virkelig brukskjøkken for den aktive familie. Fås i modellene klassisk hvit, klassisk hvit med eikekant og Sort med eikekant.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 55737,
+            "medium": 63062,
+            "large": 98037
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_System_Home_v2.0003.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Parallell",
+          "collection": "Norema",
+          "description": "Velkommen til duggfrisk og nordisk interiørdesign. For deg som ønsker et gladkjøkken som smiler fra morgen til kveld. Med sine slette fronter har Parallell-modellen et rent og grafisk uttrykk med store muligheter for personlige designløsninger. Fås i klassisk hvit og mellomgrå.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 48775,
+            "medium": 56037,
+            "large": 81200
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Parallell_Home_Parallell_Home_v4.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Kvadrat",
+          "collection": "Norema",
+          "description": "Dette er en kjøkkenmodell med slette og slitesterke melaminbelagte fronter. Sjatteringene i modellene med trestruktur gir overflaten et levende og organisk uttrykk. Skap et Nordisk designkjøkken hjemme hos deg med en av våre modeller i kvadrat-familien. Fås i modellene Klassisk Hvit, Lys Alm, Trøffelgrå Eik, Brun Eik og Sort Eik.",
+          "colors": [
+            {
+              "name": "Brun eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            },
+            {
+              "name": "Sort eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            }
+          ],
+          "prices": {
+            "small": 38737,
+            "medium": 45225,
+            "large": 63087
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Kvadrat_Fine_%C3%BCr_Sort_Home_v5.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Kube",
+          "collection": "Norema",
+          "description": "Kube er en moderne og lekker kjøkkenmodell i heltre eik med smal ramme og vakker eikestruktur. Modellen passer like godt til et tradisjonelt kjøkken som i et moderne kjøkken alt etter hvilke tilbehør du velger. Kube - for deg som vil ha litt av alt!",
+          "colors": [
+            {
+              "name": "Sort eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            },
+            {
+              "name": "Eik",
+              "src": "Norema/Farger/Eik.jpg"
+            }
+          ],
+          "prices": {
+            "small": 74250,
+            "medium": 85150,
+            "large": 129700
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Norema_Kube_Home_Kube_Home_v3.0001.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Akse",
+          "collection": "Norema",
+          "description": "Design Akse gir kjøkkenet ro og en naturlig varme – et tidløst samlingspunkt i en travel hverdag. Linjene er slanke og rolige. Materialene er rene og enkle. Design Akse åpner for mange gode kombinasjonsmuligheter.",
+          "colors": [
+            {
+              "name": "Brun eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            }
+          ],
+          "prices": {
+            "small": 69652,
+            "medium": 80262,
+            "large": 121887
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Akse_Home_norema.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Aspekt",
+          "collection": "Norema",
+          "description": "Less is more. Med denne enkle, stilrene og prisgunstige kjøkkenmodellen kan du skape mye deilig kjøkken for pengene. Aspekt har hvitmalte glatte fronter i ren og presis design. En slik formgivning er svært lett å tilpasse alle boligtyper og romløsninger.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 44675,
+            "medium": 51687,
+            "large": 73575
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/Norema_Aspekt.jpg",
+          "filterWorktops": [
+            "Laminat",
+            "Massivt tre",
+            "Granitt"
+          ]
+        },
+        {
+          "title": "Hisøy",
+          "collection": "Norema",
+          "description": "Lekker kjøkkenmodell med integrerte grep på skuffer og skapdører. Malt MDF med innfrest grep, 19 mm. Fås i fargene klassisk hvit, lys grå, mellomgrå.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 36061,
+            "medium": 41546,
+            "large": 52829
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_His%C3%B8y_grep_Basic_v4.0001.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        },
+        {
+          "title": "Norema x Toniton",
+          "collection": "Sigdal",
+          "description": "Fargene på Toniton-kjøkkenet er utviklet av en av verdens fremste kolorister, Tekla Severin. Hun har lagt stor vekt på å finne tidløse farger som kler ulike miljøer og personligheter. Fra deg som søker en klassisk og nøye utvalgt tone i grått eller blått, til deg som foretrekker trendy nyanser som gul eller peach. Hele seks lekre farger å velge blant!",
+          "colors": [
+            {
+              "name": "Toniton peach",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-peach.webp"
+            },
+            {
+              "name": "Toniton creme",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-creme.webp"
+            },
+            {
+              "name": "Toniton blue",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-blue.webp"
+            },
+            {
+              "name": "Toniton green",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-green.webp"
+            },
+            {
+              "name": "Toniton grey",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-grey.webp"
+            },
+            {
+              "name": "Toniton yellow",
+              "src": "Marbodal/Price%20Configurator/Colors/toniton-yellow.webp"
+            }
+          ],
+          "prices": {
+            "small": 60694,
+            "medium": 69675,
+            "large": 103262
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/Toniton_x_Norema_kj%C3%B8kken.jpg"
+        },
+        {
+          "title": "Format",
+          "collection": "Sigdal",
+          "description": "Kjøkkenklassiker i moderne design. Frontene har ramtre og slett fylling, en elegant kombinasjon av tradisjonell kjøkkendesign og en moderne touch. Format-serien byr på en stil som er nett og diskret, landlig og litt shakeraktig.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Beige",
+              "src": "Norema/Farger/Beige_S_2005-Y20R.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            },
+            {
+              "name": "Mørk grå",
+              "src": "Norema/Farger/M%C3%B8rk_Gr%C3%A5.jpg"
+            },
+            {
+              "name": "Lingrønn",
+              "src": "Norema/Farger/Lingr%C3%B8nn_NCS_S_2005-G10Y.jpg"
+            },
+            {
+              "name": "Grønn",
+              "src": "Norema/Farger/Gr%C3%B8nn_NCS_S_5005-G50Y.jpg"
+            },
+            {
+              "name": "Mørk blå",
+              "src": "Norema/Farger/M%C3%B8rk_bl%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 52725,
+            "medium": 60775,
+            "large": 87387
+          },
+          "image": "Norema/Kitchens/Home%20Collection/Milj%C3%B8bilder/2023%20bilder%20Home/Noreman_Format_Home_Format_Home_v15.0001.jpg"
+        },
+        {
+          "title": "Nøtterøy",
+          "collection": "Norema",
+          "description": "Moderne kjøkkenmodell med slette og slitesterke melaminbelagte fronter 16-19mm MFC. Fås i Brun eik, klassisk hvit, lys alm, mellomgrå, sort tre, trøffelgrå eik.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Brun eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            },
+            {
+              "name": "Lys alm",
+              "src": "Norema/Farger/Lys_alm.png"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            },
+            {
+              "name": "Sort eik",
+              "src": "Norema/Farger/Sort_eik.jpg"
+            },
+            {
+              "name": "Trøffelgrå eik",
+              "src": "Norema/Farger/Tr%C3%B8ffelgr%C3%A5_eik.png"
+            }
+          ],
+          "prices": {
+            "small": 28820,
+            "medium": 33967,
+            "large": 43409
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_N%C3%B8tter%C3%B8y_lys_alm_Basic_v3.0001.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        },
+        {
+          "title": "Stjernøya",
+          "collection": "Norema",
+          "description": "Hyperpraktisk, ujålete og minimalistisk kjøkken med et snev av retropreg. Renholdsvennlige fronter. Malt MDF 19 mm. Fås i fargene beige, grønn, lys grå, mellomgrå.",
+          "colors": [
+            {
+              "name": "Beige",
+              "src": "Norema/Farger/Beige_S_2005-Y20R.jpg"
+            },
+            {
+              "name": "Grønn",
+              "src": "Norema/Farger/Gr%C3%B8nn_NCS_S_5005-G50Y.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 41911,
+            "medium": 52387,
+            "large": 66604
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_Stjern%C3%B8ya_Basic_v4.0001.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        },
+        {
+          "title": "Tromøy",
+          "collection": "Norema",
+          "description": "Tromøy er en “kameleonmodell” som er lett å integrere i et mer nostalgisk kjøkkenmiljø. Profilfrest malt MDF, 16 mm. Fås i fargene klassisk hvit, lys grå, mellomgrå.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 38964,
+            "medium": 45014,
+            "large": 56923
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_Trom%C3%B8y_Basic_v3.0001.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        },
+        {
+          "title": "Håøya",
+          "collection": "Norema",
+          "description": "Shakerinspirert kjøkkenmodell med ramtrefronter og klassisk sjarm. Malt MDF rammefront med slett speil,19 mm. Fås i fargene klassisk hvit, lys grå, mellomgrå.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            },
+            {
+              "name": "Lys grå",
+              "src": "Norema/Farger/Lys_gr%C3%A5_NCS_S_2500-N.jpg"
+            },
+            {
+              "name": "Mellomgrå",
+              "src": "Norema/Farger/Mellomgr%C3%A5.jpg"
+            }
+          ],
+          "prices": {
+            "small": 38995,
+            "medium": 45045,
+            "large": 56954
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_H%C3%A5%C3%B8ya_Basic_v5.0001.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        },
+        {
+          "title": "Asmaløy",
+          "collection": "Norema",
+          "description": "Asmaløy har hvitmalte glatte og rengjørings-vennlige fronter. Står godt til utstyr i stål og aluminium. Malt 16 mm MDF.",
+          "colors": [
+            {
+              "name": "Klassisk hvit",
+              "src": "Norema/Kitchens/Swatches/Color_S_0500-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 33564,
+            "medium": 39134,
+            "large": 50754
+          },
+          "image": "Norema/Kitchens/Basic%20Collection/Milj%C3%B8bilder%20Basic%20Collection//Nye%20bilder%202023/Norema_Asmal%C3%B8y_Basic.jpg",
+          "filterWorktops": [
+            "Laminat (Basic)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Kjøkkenstørrelse",
+      "shortTitle": "Størrelse",
+      "type": "units",
+      "description": "Velg størrelse på kjøkken",
+      "tooltip": {
+        "title": "",
+        "description": [
+          "Lite kjøkken rommer 5 underskap, 3 veggskap og 1 høyskap.",
+          "Medium kjøkken rommer 8 under-skap, 5 veggskap og 2 høyskap.",
+          "Stort kjøkken rommer 12 under-skap, 8 veggskap, 3 høyskap samt kjøkkenøy.",
+          "Priser er ekslusiv benkeplate, vask, kran og hvitevarer."
+        ]
+      },
+      "cards": [
+        {
+          "type": "small",
+          "title": "Lite kjøkken",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/units-small.png"
+        },
+        {
+          "type": "medium",
+          "title": "Medium kjøkken",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/units-medium.png"
+        },
+        {
+          "type": "large",
+          "title": "Stort kjøkken",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/units-large.png"
+        }
+      ]
+    },
+    {
+      "id": "worktops",
+      "title": "Benkeplater",
+      "type": "simple",
+      "description": "Velg hvilken type benkeplate du vil ha.",
+      "tooltip": {
+        "title": "",
+        "description": [
+          "Norema har et bredt utvalgt av ulike benkeplater. Ved å klikke på det materialet du ønskerså får du opp et estimathva dette vil koste på våre3 kjøkkeneksempler.",
+          "For å få eksakt pris må du ta kontakt med din nærmeste forhandler."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Laminat (Basic)",
+          "description": "Benkeplater i laminat finnes i et bredt sortiment med en mengde ulike overflater, mønster og farger.",
+          "prices": {
+            "small": 5423,
+            "medium": 8093,
+            "large": 11372
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Laminat",
+          "description": "Benkeplater i laminat finnes i et bredt sortiment med en mengde ulike overflater, mønster og farger.",
+          "prices": {
+            "small": 4768,
+            "medium": 7239,
+            "large": 10620
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Massivt tre",
+          "description": "Benkeplater i massivt tre er både levende og varmt, genuint og vakkert som varer over tid.",
+          "prices": {
+            "small": 17871,
+            "medium": 25599,
+            "large": 34602
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/ek.jpg"
+        },
+        {
+          "title": "Granitt",
+          "description": "De vakre benkeplatene i granitt finnes i en mangde ulike luksuriøse utforminger som passer alle typer kjøkken. Hver plate er unik så du kan være sikker på å få et spesielt kjøkken.",
+          "prices": {
+            "small": 12582,
+            "medium": 18130,
+            "large": 25870
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/granit.jpg"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "title": "Estimat",
+      "type": "summary",
+      "description": "",
+      "tooltip": {}
+    }
+  ],
+  "messages": {
+    "app.routes.main-title": "Priskonfigurator",
+    "app.routes.home.path": "/",
+    "app.routes.home.title": "Hem",
+    "app.header.title": "Hva koster våre ulike kjøkkenmodeller?",
+    "app.header.description": "Under får du et estimat på hva ditt nye Noremakjøkken vil koste. Du klikker på kjøkkenmodellen du liker, og så kan du se hva denne modellen vil koste i 3 ulike størrelser. For å kunne gi deg en nøyaktig pris på ditt kjøkken booker du et møte med en av våre kjøkken-designere. Sammen vil dere finne ut av dine ønsker for ditt nye kjøkken og vi designer din kjøkkendrøm.",
+    "app.header.readMore": "Læs mer",
+    "app.header.readLess": "Læs mindre",
+    "app.bada.title": "Avtal møte med en av våre designere",
+    "app.bada.instore-and-online.description": "Vi kan møtes i butikk, digitalt eller på telefon",
+    "app.bada.expert-guidance.description": "Vi tegner ditt nye kjøkken, bad eller garderobe, og du får et tilbud basert på dine behov og ønsker.",
+    "app.bada.call-to-action.description": "Avtal møte nå",
+    "app.bada.call-to-action.link": "https://www.norema.no/avtal-mote/",
+    "app.bada.img.src": "https://assets.nobiadigital.com/image/upload/v1654681321/Norema/Hvilebilder/GettyImages-1221755378.jpg",
+    "app.finance.title": "Finansiera ditt kök",
+    "app.finance.description": "Med våra flexibla lösningar finns det något för alla budgetar, ditt drömkök kan snart vara färdigt.",
+    "app.finance.buy-now-pay-later.title": "Köp nu, betala senare",
+    "app.finance.buy-now-pay-later.description-1": "Lägg din order och betala om den ett år",
+    "app.finance.buy-now-pay-later.description-2": "Betala per månad efter de första 12 månaderna",
+    "app.finance.buy-now-pay-later.description-3": "Det mest populära finansierings-alternativet",
+    "app.finance.pay-monthly.title": "Betala per månad",
+    "app.finance.pay-monthly.description-1": "Sprid ut dina kostnader per månad",
+    "app.finance.pay-monthly.description-2": "Välj mellan olika betalningsplaner",
+    "app.finance.pay-monthly.description-3": "12, 24 eller 36 månader",
+    "app.finance.pay-upfront.title": "Betala direkt",
+    "app.finance.pay-upfront.description-1": "Betala en deposition på endast 950kr kr för att lägga din order",
+    "app.finance.pay-upfront.description-2": "Den resterande kostnaden betalas senast två veckor innan leveransdagen",
+    "app.finance.pay-upfront.description-3": "Inga finansiella tjänster behövs",
+    "app.finance.terms-and-conditions.description": "Finansieringsmöjligheter",
+    "app.components.summary.title": "Estimert pris:",
+    "app.components.cost-summary.title": "Beregnet prisantydning:",
+    "app.components.cost-summary.alternative": "eller",
+    "app.components.cost-summary.per-month": "per månad",
+    "app.components.cost-summary.info": "Månadskostnad i",
+    "app.components.cost-summary.months": "månader",
+    "app.components.email.title": "Lagre ditt prisestimat",
+    "app.components.email.description": "Fyll inn din mailadresse så sender vi ditt prisestimat",
+    "app.components.email.placeholder": "Din e-postadresse",
+    "app.components.email.error": "Skriv in en giltig mailaddresse",
+    "app.components.email.opt-in": "Jeg vil gjerne motta nyhetsbrev og tilbud fra Norema.",
+    "app.components.email.call-to-action": "Send",
+    "app.components.email.sent.title": "Prisuppskattning sparad",
+    "app.components.email.sent.description.pre-email": "En email er nå sendt till",
+    "app.components.email.sent.description.post-email": "med ditt prisestimat.",
+    "app.components.email.sent.call-to-action": "Send et nyt prisestimat",
+    "app.components.email.book-a-meeting.call-to-action": "Jeg vill gjerne booke et møte med en kjøkkendesigner",
+    "app.components.login.button": "Se ditt prisestimat",
+    "app.components.login.modal.title": "Nesten der – bare ett steg til",
+    "app.components.login.modal.description": "Vi vet at det er et ekstra trinn, og vi setter pris på tålmodigheten din. For å se resultatene dine, må du enten logge inn på din eksisterende konto eller opprette en ny.",
+    "app.components.login.modal.login": "Logg inn",
+    "app.components.login.modal.createAccount": "Opprett ny konto",
+    "app.components.login.modal.or": "Eller",
+    "app.components.price-band.currency": "$",
+    "app.components.card.units": "enheter",
+    "app.components.card.from": "Fra ",
+    "app.components.installation.title": "Get installation estimate",
+    "app.components.installation.description": "Tell us a bit more so we can give you a  preliminary price for installation.",
+    "app.components.installation.postal-code": "Post code",
+    "app.components.installation.postal-code-info": "for installation location",
+    "app.components.installation.high-rise": "If upstairs, does the installation location have lift access?",
+    "app.components.installation.high-rise-info": "Please select this if there is a flight of stairs required for access.",
+    "app.components.installation.parking-difficult": "Is parking difficult where you live?",
+    "app.components.installation.parking-difficult-info": "A pre-fit survey will determine if parking issues add extra costs.",
+    "app.components.installation.yes": "Yes",
+    "app.components.installation.no": "No",
+    "app.components.installation.price": "Your preliminary installation price",
+    "app.components.installation.price-estimate": "Price estimate",
+    "app.components.installation.save-and-close": "Save and close",
+    "app.components.installation.close": "Close",
+    "app.country.code": "nb-NO",
+    "app.country.currency": "NOK"
+  }
+}

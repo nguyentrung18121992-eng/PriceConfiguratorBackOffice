@@ -1,0 +1,62 @@
+# Price Configurator Back Office + Cosmos DB emulator (Docker Desktop)
+#
+# Setup:
+#   copy .env.example .env  (set FEED_ACCESSTOKEN for first build)
+#   docker compose build back-office
+#   docker compose up -d
+#   curl http://localhost:18080/ready   # wait for Cosmos
+#
+# App:     http://localhost:7161  (Swagger: /swagger)
+# Cosmos:  http://localhost:18081  (Data Explorer: http://localhost:11234)
+
+services:
+  cosmos-emulator:
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:vnext-preview
+    container_name: price-configurator-cosmos-emulator
+    hostname: cosmos-emulator
+    restart: unless-stopped
+    ports:
+      - "18081:8081"
+      - "11234:1234"
+      - "18080:8080"
+    environment:
+      PROTOCOL: http
+      # SDK gateway must not redirect to 127.0.0.1 from another container (see azure-cosmos-db-emulator-docker#125)
+      GATEWAY_PUBLIC_ENDPOINT: cosmos-emulator
+      AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE: "true"
+    mem_limit: 4g
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/ready && curl -sf http://localhost:8081/ >/dev/null"]
+      interval: 10s
+      timeout: 10s
+      retries: 36
+      start_period: 120s
+
+  back-office:
+    build:
+      context: .
+      dockerfile: price-configurator-back-office/Dockerfile
+      args:
+        FEED_ACCESSTOKEN: ${FEED_ACCESSTOKEN:-}
+    container_name: price-configurator-back-office
+    restart: unless-stopped
+    ports:
+      - "7161:8080"
+      - "5161:8080"
+    env_file:
+      - .env
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT:-local}
+      # Default: in-network emulator. Override in .env for Windows emulator / Azure.
+      ConnectionStrings__priceconfigurator: ${ConnectionStrings__priceconfigurator:-AccountEndpoint=http://cosmos-emulator:8081/;AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==;ConnectionMode=Gateway}
+      AuthScriptsApi_Url: ${AuthScriptsApi_Url:-https://auth-scripts-api.dev.nobiadigital.com}
+      PublicConfiguratorBaseUrl: ${PublicConfiguratorBaseUrl:-https://price-configurator-magnet.dev.nobiadigital.com}
+      CloudinaryLogin: ${CloudinaryLogin:-false}
+      CloudinaryName: ${CloudinaryName:-dgg9enyjv}
+      CloudinaryKey: ${CloudinaryKey:-}
+      CloudinarySecret: ${CloudinarySecret:-}
+    depends_on:
+      cosmos-emulator:
+        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

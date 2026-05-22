@@ -1,0 +1,34 @@
+@model IEditingPageField<string>
+
+@{
+    var readOnly = Model.Property.IsReadOnly;
+}
+
+<div class="card-images-editor"
+     data-card-images-editor
+     data-readonly="@readOnly.ToString().ToLowerInvariant()">
+    <div class="alert alert-warning py-2 small d-none mb-2" data-img-parse-error role="alert">
+        Saved image data is not valid JSON. It was not loaded into the editor; fix the data or re-import from seed before saving other fields.
+    </div>
+    <input type="hidden"
+           id="@Model.Name"
+           name="@Model.Name"
+           data-card-json
+           value="@Model.Value" />
+
+    <p class="form-text text-muted">
+        One <strong>image set</strong> per sink bowl option (or per variant). Each set can contain multiple Cloudinary paths.
+    </p>
+
+    <div data-img-sets></div>
+
+    @if (!readOnly)
+    {
+        <div class="d-flex flex-wrap gap-2 mt-2">
+            <button type="button" class="btn btn-beta btn-sm" data-img-add-set>+ Add image set</button>
+            <button type="button" class="btn btn-beta btn-sm" data-img-align-sinks title="Create one set per sink option defined above">
+                Align sets with sink options
+            </button>
+        </div>
+    }
+</div>

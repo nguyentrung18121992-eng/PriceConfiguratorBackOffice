@@ -1,0 +1,33 @@
+resources:
+  repositories:
+    - repository: shared
+      type: github
+      name: Nobiadigital/pipelines
+      endpoint: Nobiadigital
+
+variables:
+  - group: shared-variables
+
+trigger:
+  batch: true
+  branches:
+    include:
+      - master
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+  - job: build
+    steps:
+      - checkout: self
+        path: "./s"
+      - checkout: shared
+        path: "./s/shared-pip"
+
+      - template: shared/dotnet-build.yml@shared
+        parameters:
+          DOTNET_VERSION: 8.0
+          NUGET_CONFIG: nuget.config
+
+      - template: shared/ado-post-build.yml@shared

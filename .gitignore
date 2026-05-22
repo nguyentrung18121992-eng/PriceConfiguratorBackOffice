@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+.tmp-*
+
+# Ad-hoc dotnet output copy (e.g. msbuild -o _build-check)
+**/_build-check/
+
+.env
+
+# Local secrets and machine-specific settings
+appsettings.local.json
+appsettings.*.local.json
+!appsettings.local.json.example
+
+# Test / tooling
+TestResults/
+*.DotSettings.user

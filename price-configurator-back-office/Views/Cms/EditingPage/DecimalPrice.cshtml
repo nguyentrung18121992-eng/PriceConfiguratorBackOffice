@@ -1,0 +1,28 @@
+@using System.Globalization
+@model IEditingPageField
+
+@inject IPropertyValueGetter PropertyValueGetter
+
+@{
+    var value = Model.BaseValue switch
+    {
+        decimal d => d.ToString(CultureInfo.InvariantCulture),
+        double d => d.ToString(CultureInfo.InvariantCulture),
+        float f => f.ToString(CultureInfo.InvariantCulture),
+        null => string.Empty,
+        _ => Model.BaseValue?.ToString() ?? string.Empty,
+    };
+}
+
+<input type="number"
+       step="any"
+       inputmode="decimal"
+       lang="en"
+       class="form-control"
+       id="@Model.Name"
+       name="@Model.Name"
+       value="@value"
+       placeholder="0.00"
+       min="0"
+       @(Model.Property.Required ? "required" : null)
+       @(Model.Property.IsReadOnly ? "readonly" : null)>

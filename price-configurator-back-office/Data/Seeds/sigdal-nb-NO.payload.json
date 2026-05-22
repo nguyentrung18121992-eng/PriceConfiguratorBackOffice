@@ -1,0 +1,1015 @@
+{
+  "sections": [
+    {
+      "id": "range",
+      "type": "range",
+      "title": "Kjøkkenmodeller",
+      "shortTitle": "Kjøkken",
+      "description": "Velg din kjøkkensmodell.",
+      "tooltip": {
+        "title": "Våre kjøkkenmodeller",
+        "description": [
+          "Vi tilbyr et bredt sortiment kjøkkenmodeller i ulike stiler. Prisen kan variere for like modeller avhengig av farge og materialvalg. ",
+          "Kontakt din lokale forhandler for mer informasjon om pris og utvalg."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Signatur Favn",
+          "collection": "Sigdal",
+          "description": "Signatur Favn er mer enn et kjøkken. Det er en idé og et formspråk inspirert av vår nordiske natur. Vår visjon er at kjøkkenet skal gi deg samme ro og harmoni som et besøk i naturen selv. Inspirasjonen har vi hentet fra våre vakre eikeskoger.",
+          "colors": [
+            {
+              "name": "Nøtt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984969/Sigdal/Kitchens/Swatches/Sigdal-beisfarge-n%C3%B8tt.png"
+            }
+          ],
+          "prices": {
+            "small": 70097,
+            "medium": 81825,
+            "large": 121135
+          },
+          "image": "Sigdal/Kitchens/Models/Signatur%20Favn/Sigdal-SignaturFavn_2-32_005.jpg"
+        },
+        {
+          "title": "Amfi Eik",
+          "collection": "Sigdal",
+          "description": "Elegant og moderne eikekjøkken. Slette fronter i eikefinér med integrert kantlist i eik som markerer kjøkkenets linjer og komposisjon. Finnes i alle Jordnærfarger, 4 beisfarger og natur.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            },
+            {
+              "name": "Lakriz",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lakriz.jpg"
+            },
+            {
+              "name": "Skifer",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Sigdal-kj%C3%B8kken_beisfarge_Skifer.png"
+            },
+            {
+              "name": "Kongle",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Kongle.jpg"
+            },
+            {
+              "name": "Lin",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lin.jpg"
+            }
+          ],
+          "prices": {
+            "small": 70113,
+            "medium": 81840,
+            "large": 121132
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1585766269/Sigdal/Kitchens/Models/Amfi%20Eik/98287_Sigdal_Amfi_Eik.jpg"
+        },
+        {
+          "title": "Forte",
+          "collection": "Sigdal",
+          "description": "Robust og lettstelt kjøkkenmodell i hvitt høytrykkslaminat. Med sin enkle og rene formgivning er modellen velegnet for voluminnredninger med mye oppbevaringsplass.",
+          "colors": [
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 40398,
+            "medium": 49734,
+            "large": 68641
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1642669276/Sigdal/Kitchens/Models/Forte/Sigdal_Forte-_S_0500-N.jpg"
+        },
+        {
+          "title": "Herregaard",
+          "collection": "Sigdal",
+          "description": "Eksklusivt tradisjonskjøkken med herskapelig preg. Klassiske speilfronter med fylling og markerte profilspor som gir dybdevirkning og skyggespill. Klassisk årgangskjøkken med sjel, som lever opp til navnet. Finnes i alle Jordnærfarger.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 53272,
+            "medium": 64552,
+            "large": 90139
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1642418964/Sigdal/Kitchens/Models/Herregaard/Sigdal-Herregaard-side-S200-N.jpg"
+        },
+        {
+          "title": "Herregaard eik",
+          "collection": "Sigdal",
+          "description": "Eksklusivt eikekjøkken i kontinental design. Klassiske speilfronter med ramtre og profilert fylling som gir dybdevirkning og skyggespill. Få med deg de store tilvalgsmulighetene for personlig utforming. Finnes i alle Jordnærfarger, 3 beisfarger og natur.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            },
+            {
+              "name": "Lakriz",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lakriz.jpg"
+            },
+            {
+              "name": "Skifer",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Sigdal-kj%C3%B8kken_beisfarge_Skifer.png"
+            },
+            {
+              "name": "Kongle",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Kongle.jpg"
+            },
+            {
+              "name": "Lin",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lin.jpg"
+            },
+            {
+              "name": "Natur",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661167547/Sigdal/Kitchens/Swatches/Eik_st%C3%A5ende.jpg"
+            }
+          ],
+          "prices": {
+            "small": 77822,
+            "medium": 91701,
+            "large": 134434
+          },
+          "image": "Sigdal/Kitchens/Models/Herregaard%20Eik/Sigdal_Herregaard-eik.jpg"
+        },
+        {
+          "title": "Horisont",
+          "collection": "Sigdal",
+          "description": "Herlig trendkjøkken med slette fronter og innfreste grep, som markerer modellens linjerene design. Horisont kjennetegnes av en klar og kjølig friskhet, noe som representerer ny nordisk design på sitt beste. Finnes i alle Jordnærfarger.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 49481,
+            "medium": 59449,
+            "large": 83564
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1652184407/Sigdal/Kitchens/Models/Horisont/Horisont_Furu-S5005-G50Y.jpg"
+        },
+        {
+          "title": "Line",
+          "collection": "Sigdal",
+          "description": "Line er en modell med et stort designregister. Med sine slette MDF-fronter i hele 15 forskjellige malte farger – pluss mulighet for fargetilpasset forkant på skrogene – gir Line deg absolutt alle muligheter. Finnes i alle Jordnærfarger.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 49481,
+            "medium": 59449,
+            "large": 83564
+          },
+          "image": "Sigdal/Kitchens/Models/Line/Sigdal_Line_beige-_2.png"
+        },
+        {
+          "title": "Sand",
+          "collection": "Sigdal",
+          "description": "Nett og møbleringsvennlig modell med slette, renholdsvennlige fronter. Stilen er lavmælt, nøktern og uprangende og derfor velegnet til enkle, stilistiske interiørløsninger.",
+          "colors": [
+            {
+              "name": "Sand",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641989602/Sigdal/Kitchens/Swatches/Sigdal-farger-S4005-Y50R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 44003,
+            "medium": 52519,
+            "large": 74212
+          },
+          "image": "Sigdal/Kitchens/Models/Sand/Sigdal_Sand_S4005-Y50R.png"
+        },
+        {
+          "title": "Scala",
+          "collection": "Sigdal",
+          "description": "Nett og tidløs crossover-modell. Fronter med enkel ramme og slett fylling, noe som kombinerer vintage kjøkkendesign med et moderne uttrykk. Du kan forsterke det ene eller det andre gjennom valg av tilbehør. Finnes i alle Jordnærfarger.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 49590,
+            "medium": 59449,
+            "large": 83564
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1659351622/Sigdal/Kitchens/Models/Scala/Fotoshoot%20Stockholm%202022/Scala-Frost-S1000N-fotoshoot_1.jpg"
+        },
+        {
+          "title": "Solido",
+          "collection": "Sigdal",
+          "description": "Ønsker du en interiørstil som utstråler diskret eleganse, kan du med hell velge Solido. Modellen har slette fronter i sort supermatt høytrykkslaminat med fasede kantlister i heltre eik. ",
+          "colors": [
+            {
+              "name": "Hvit",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Sort",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641995194/Sigdal/Kitchens/Swatches/Sigdal-farger-S9000-N.jpg"
+            },
+            {
+              "name": "Grå",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641995194/Sigdal/Kitchens/Swatches/Sigdal-farger-S5502-Y.jpg"
+            }
+          ],
+          "prices": {
+            "small": 56887,
+            "medium": 66735,
+            "large": 96944
+          },
+          "image": "Sigdal/Kitchens/Models/Solido/Sigdal_Solido_S9000-N.jpg"
+        },
+        {
+          "title": "Square eik",
+          "collection": "Sigdal",
+          "description": "Rustikk og landlig kjøkkenmodell i heltre eik. Front med enkel ramme og slett fylling gjør at du kan variere uttrykket på kjøkkenet fra det helt moderne til det rustikke landlige preget alt etter hvilket tilbehør du velger. Finnes i alle Jordnærfarger, 4 beisfarger og natur.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            },
+            {
+              "name": "Lakriz",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lakriz.jpg"
+            },
+            {
+              "name": "Skifer",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Sigdal-kj%C3%B8kken_beisfarge_Skifer.png"
+            },
+            {
+              "name": "Kongle",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Kongle.jpg"
+            },
+            {
+              "name": "Lin",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lin.jpg"
+            },
+            {
+              "name": "Natur",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661167547/Sigdal/Kitchens/Swatches/Eik_st%C3%A5ende.jpg"
+            }
+          ],
+          "prices": {
+            "small": 72969,
+            "medium": 85843,
+            "large": 126138
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1585767198/Sigdal/Kitchens/Models/Square%20Shaker/HiRes_Sigdal_Square_Eik_Lakriz.jpg"
+        },
+        {
+          "title": "Uno",
+          "collection": "Sigdal",
+          "description": "Uno er en ”kameleon-modell” som tilpasser seg omgivelsene og blir akkurat det kjøkkenet du gjør den til. Med 15 farger å velge blant og lette, renholdsvennlige flater et dette en ultra-praktisk kjøkkenmodell! Finnes i alle Jordnærfarger.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            }
+          ],
+          "prices": {
+            "small": 39717,
+            "medium": 45521,
+            "large": 68551
+          },
+          "image": "Sigdal/Kitchens/Models/Uno/Sigdal_Uno_Svanen_011.jpg"
+        },
+        {
+          "title": "Vidde Snø",
+          "collection": "Sigdal",
+          "description": "Slette fronter i hvit eller grå melamin er et godt utgangspunkt for et lyst og innbydende trivselskjøkken. Modellens presise og kubistiske formspråk gjør den velegnet for utstrakt bruk av takhøye skapløsninger med god plassutnyttelse.",
+          "colors": [
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 32083,
+            "medium": 37090,
+            "large": 54670
+          },
+          "image": "Sigdal/Kitchens/Models/Vidde/Sigdal_Vidde_S1002-Y.png"
+        },
+        {
+          "title": "Fjell",
+          "collection": "Sigdal",
+          "description": "Kjøkkemodellen Fjell er et realt brukskjøkken med praktiske egenskaper. Dette er en prisgunstig modell med slette melamin-fronter i en vakker grå farge.",
+          "colors": [
+            {
+              "name": "S 5000-N",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641990260/Sigdal/Kitchens/Swatches/Sigdal-farger-S5000-N.jpg"
+            }
+          ],
+          "prices": {
+            "small": 44003,
+            "medium": 61035,
+            "large": 74212
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1640087303/Sigdal/Kitchens/Models/Fjell/Sigdal_Fjell-S5500N-hovedbilde.jpg"
+        },
+        {
+          "title": "Eikeli",
+          "collection": "Sigdal",
+          "description": "Eikeli representerer en lun og nordisk eiketrend. Med sine malte lamellfronter i heltre eik, byr modellen på referanser til både kulinarisk bistro og urbane kafémiljøer. Eikeli fåes kun som underskap, men kan enkelt kombineres med åpne Bistrohyller og høyskap med slette eikefronter.",
+          "colors": [
+            {
+              "name": "Frost",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S1000-N.png"
+            },
+            {
+              "name": "Furu",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5005-G50Y.jpg"
+            },
+            {
+              "name": "Korn",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637075816/Sigdal/Kitchens/Swatches/S2005-Y20R.png"
+            },
+            {
+              "name": "Hav",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-R80B.jpg"
+            },
+            {
+              "name": "Torden",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S5500-N.jpg"
+            },
+            {
+              "name": "Høst",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-Y20R.jpg"
+            },
+            {
+              "name": "Sky",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984295/Sigdal/Kitchens/Swatches/Sigdal-farger-S2500-N.jpg"
+            },
+            {
+              "name": "Granitt",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637164999/Sigdal/Kitchens/Swatches/NCS-S-7500-N.jpg"
+            },
+            {
+              "name": "Frø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419164/Sigdal/Kitchens/Swatches/Sigdal-farger-5613-Y10R.jpg"
+            },
+            {
+              "name": "Snø",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S0500-N.jpg"
+            },
+            {
+              "name": "Mose",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419040/Sigdal/Kitchens/Swatches/Sigdal-farger-S7005-G80Y.jpg"
+            },
+            {
+              "name": "Mold",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-4915-Y55R.jpg"
+            },
+            {
+              "name": "Strøm",
+              "src": "https://assets.nobiadigital.com/image/upload/v1644419111/Sigdal/Kitchens/Swatches/Sigdal-farger-6108-B08G.jpg"
+            },
+            {
+              "name": "Ro",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984296/Sigdal/Kitchens/Swatches/Sigdal-farger-S7010-Y50R.jpg"
+            },
+            {
+              "name": "Tundra",
+              "src": "https://assets.nobiadigital.com/image/upload/v1641984294/Sigdal/Kitchens/Swatches/Sigdal-farger-S8005-Y80R.jpg"
+            },
+            {
+              "name": "Lakriz",
+              "src": "https://assets.nobiadigital.com/image/upload/v1661165981/Sigdal/Kitchens/Swatches/Lakriz.jpg"
+            },
+            {
+              "name": "Skifer",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Sigdal-kj%C3%B8kken_beisfarge_Skifer.png"
+            },
+            {
+              "name": "Kongle",
+              "src": "https://assets.nobiadigital.com/image/upload/v1637072609/Sigdal/Kitchens/Swatches/Kongle.jpg"
+            }
+          ],
+          "prices": {
+            "small": 97685,
+            "medium": 127887,
+            "large": 184274
+          },
+          "image": "https://assets.nobiadigital.com/image/upload/v1644246300/Sigdal/Kitchens/Models/Eikeli/Sigdal-Eikeli-Lin.jpg"
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Kjøkkenstørrelse",
+      "shortTitle": "Kjøkkenstørrelse",
+      "type": "units",
+      "description": "Velg størrelse på ditt kjøkken.",
+      "tooltip": {
+        "title": "Kjøkkenstørrelse",
+        "description": [
+          "Lite kjøkken < 10 m2 rommer 5 underskap, 3 veggskap, 1 høyskap.",
+          "Vinkelkjøkken 10-20 m2 rommer 8 underskap, 5 veggskap, 2 høyskap.",
+          "Kjøkken med kjøkkenøy < 20 m2 rommer 12 underskap, 8 veggskap, 3 høyskap samt kjøkkenøy."
+        ]
+      },
+      "cards": [
+        {
+          "type": "small",
+          "title": "Lite kjøkken",
+          "price": 0,
+          "image": "Sigdal/Prisindikator/Units/small-blue.png"
+        },
+        {
+          "type": "medium",
+          "title": "Vinkelkjøkken",
+          "price": 0,
+          "image": "Sigdal/Prisindikator/Units/medium-blue.png"
+        },
+        {
+          "type": "large",
+          "title": "Kjøkken med kjøkkenøy",
+          "price": 0,
+          "image": "Sigdal/Prisindikator/Units/large-blue.png"
+        }
+      ]
+    },
+    {
+      "id": "worktops",
+      "title": "Benkeplater",
+      "type": "simple",
+      "description": "Velg hvilken type benkeplate du vil ha.",
+      "tooltip": {
+        "title": "Våre benkeplater",
+        "description": [
+          "Vi har et bredt utvalg benkeplater i ulike utforminger og materialer, her ser du kun et lite utvalg. Ved å velge mellom lamiant, massivt tre og granitt kombinert med kjøkkenstørrelsen får du en cirkapris på ditt kjøkken.",
+          "For eksakt pris på ditt nye kjøkken, avtal møte med en kjøkkendesigner."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Laminat",
+          "description": "Benkeplater i laminat finnes i et bredt sortiment med en mengde ulike overflater, mønster og farger.",
+          "prices": {
+            "small": 3073,
+            "medium": 5300,
+            "large": 6956
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Massivt tre",
+          "description": "Benkeplater i massivt tre er både levende og varmt, genuint og vakkert som varer over tid.",
+          "prices": {
+            "small": 11480,
+            "medium": 20087,
+            "large": 25697
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/ek.jpg"
+        },
+        {
+          "title": "Granitt",
+          "description": "De vakre benkeplatene i granitt finnes i en mangde ulike luksuriøse utforminger som passer alle typer kjøkken. Hver plate er unik så du kan være sikker på å få et spesielt kjøkken.",
+          "prices": {
+            "small": 0,
+            "medium": 0,
+            "large": 0
+          },
+          "defmessage": "Kontakt forhandler for pris på granitt.",
+          "image": "Marbodal/Price%20Configurator/Worktops/granit.jpg"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "title": "Estimat",
+      "type": "summary",
+      "description": "",
+      "tooltip": {}
+    }
+  ],
+  "messages": {
+    "app.routes.main-title": "Priskonfigurator",
+    "app.routes.home.path": "/",
+    "app.routes.home.title": "Hem",
+    "app.header.title": "Priseksempel - hva koster et kjøkken?",
+    "app.header.description": "Her får du et estimat på hva ditt nye Sigdalkjøkken vil koste, du velger bare kjøkkenmodell, størrelse på kjøkken og benkeplate. For senere å få et nøyaktig pristilbud på ditt kjøkken, avtal møte med en kjøkkendesigner så hjelper vi deg med å designe ditt drømmekjøkken.",
+    "app.header.readMore": "Læs mer",
+    "app.header.readLess": "Læs mindre",
+    "app.bada.title": "Avtalt møte med en designer",
+    "app.bada.instore-and-online.description": "Vi møtes digitalt, på telefon eller i butikk.",
+    "app.bada.expert-guidance.description": "Når du er klar tegner vi ditt kjøkken og gir deg et tilbud basert på dine ønsker og behov.",
+    "app.bada.call-to-action.description": "Book nå",
+    "app.bada.call-to-action.link": "https://www.sigdal.com/avtal-mote/",
+    "app.bada.img.src": "https://dgg9enyjv-ressh.cloudinary.com/image/upload/w_900/v1641813441/Sigdal/Mennesker/Sigdal-Ansatte-Jessheim-2001-12.jpg",
+    "app.finance.title": "Finansiera ditt kök",
+    "app.finance.description": "Med våra flexibla lösningar finns det något för alla budgetar, ditt drömkök kan snart vara färdigt.",
+    "app.finance.buy-now-pay-later.title": "Köp nu, betala senare",
+    "app.finance.buy-now-pay-later.description-1": "Lägg din order och betala om den ett år",
+    "app.finance.buy-now-pay-later.description-2": "Betala per månad efter de första 12 månaderna",
+    "app.finance.buy-now-pay-later.description-3": "Det mest populära finansierings-alternativet",
+    "app.finance.pay-monthly.title": "Betala per månad",
+    "app.finance.pay-monthly.description-1": "Sprid ut dina kostnader per månad",
+    "app.finance.pay-monthly.description-2": "Välj mellan olika betalningsplaner",
+    "app.finance.pay-monthly.description-3": "12, 24 eller 36 månader",
+    "app.finance.pay-upfront.title": "Betala direkt",
+    "app.finance.pay-upfront.description-1": "Betala en deposition på endast 950kr kr för att lägga din order",
+    "app.finance.pay-upfront.description-2": "Den resterande kostnaden betalas senast två veckor innan leveransdagen",
+    "app.finance.pay-upfront.description-3": "Inga finansiella tjänster behövs",
+    "app.finance.terms-and-conditions.description": "Finansieringsmöjligheter",
+    "app.components.summary.title": "Beregnet prisantydning:",
+    "app.components.cost-summary.title": "Beregnet prisantydning:",
+    "app.components.cost-summary.alternative": "eller",
+    "app.components.cost-summary.per-month": "per månad",
+    "app.components.cost-summary.info": "Månadskostnad i",
+    "app.components.cost-summary.months": "månader",
+    "app.components.email.title": "Lagre ditt prisestimat",
+    "app.components.email.description": "Fyll inn din mailadresse så sender vi ditt prisestimat",
+    "app.components.email.placeholder": "Din e-postadresse",
+    "app.components.email.error": "Skriv in en giltig emailaddress",
+    "app.components.email.opt-in": "Jeg vil gjerne motta nyhetsbrev og tilbud fra Sigdal.",
+    "app.components.email.call-to-action": "Send",
+    "app.components.email.sent.title": "Prisuppskattning sparad",
+    "app.components.email.sent.description.pre-email": "Ett email har skickats till",
+    "app.components.email.sent.description.post-email": " med din detaljerade prisuppskattning.",
+    "app.components.email.sent.call-to-action": "Skicka en ny prisuppskattning",
+    "app.components.email.book-a-meeting.call-to-action": "Boka möte med designer",
+    "app.components.login.button": "Se din prisuppskattning",
+    "app.components.login.modal.title": "Nesten der – bare ett steg til",
+    "app.components.login.modal.description": "Vi vet at det er et ekstra trinn, og vi setter pris på tålmodigheten din. For å se resultatene dine, må du enten logge inn på din eksisterende konto eller opprette en ny.",
+    "app.components.login.modal.login": "Logg inn",
+    "app.components.login.modal.createAccount": "Opprett ny konto",
+    "app.components.login.modal.or": "Eller",
+    "app.components.price-band.currency": "$",
+    "app.components.card.units": "enheter",
+    "app.components.card.from": "Fra ",
+    "app.components.installation.title": "Get installation estimate",
+    "app.components.installation.description": "Tell us a bit more so we can give you a  preliminary price for installation.",
+    "app.components.installation.postal-code": "Post code",
+    "app.components.installation.postal-code-info": "for installation location",
+    "app.components.installation.high-rise": "If upstairs, does the installation location have lift access?",
+    "app.components.installation.high-rise-info": "Please select this if there is a flight of stairs required for access.",
+    "app.components.installation.parking-difficult": "Is parking difficult where you live?",
+    "app.components.installation.parking-difficult-info": "A pre-fit survey will determine if parking issues add extra costs.",
+    "app.components.installation.yes": "Yes",
+    "app.components.installation.no": "No",
+    "app.components.installation.price": "Your preliminary installation price",
+    "app.components.installation.price-estimate": "Price estimate",
+    "app.components.installation.save-and-close": "Save and close",
+    "app.components.installation.close": "Close",
+    "app.country.code": "sv-SE",
+    "app.country.currency": "SEK"
+  }
+}

@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "units",
+    "title": "How many kitchen units do you need?",
+    "shortTitle": "Units",
+    "type": "units",
+    "description": "Select your approximate number of units – price includes panels and plinths.",
+    "tooltip": {
+      "title": "What do we mean by kitchen units?",
+      "description": [
+        "A unit is a cabinet, either a base or a wall cabinet.",
+        "• Small kitchen: around 8 to 10 units, ideal for galley or compact spaces.",
+        "• Medium kitchen: around 12 to 15 units, perfect for L-shaped or U-shaped layouts.",
+        "• Large kitchen: around 16 to 20 units, suited to open-plan layouts with an island.",
+        "• Extra-large kitchen: 25 units or more, designed for generous spaces with multiple zones or extended cabinetry runs.",
+        "Your estimate includes everything you need — cabinets, panels, plinths and trims — so you can plan with confidence."
+      ]
+    },
+    "cards": [
+      {
+        "type": "small",
+        "title": "Small",
+        "units": 8,
+        "description": "For kitchens around 10m²",
+        "price": 0,
+        "image": "Magnet/Kitchens/8_unit_kitchen_image.jpg"
+      },
+      {
+        "type": "medium",
+        "title": "Medium",
+        "units": 12,
+        "description": "For kitchens around 15m²",
+        "price": 0,
+        "image": "Magnet/Kitchens/12_unit_kitchen_image.jpg"
+      },
+      {
+        "type": "large",
+        "title": "Large",
+        "units": 16,
+        "description": "For kitchens around 20m²",
+        "price": 0,
+        "image": "Magnet/Kitchens/16_unit_kitchen_image.jpg"
+      },
+      {
+        "type": "xlarge",
+        "title": "Extra large",
+        "units": 20,
+        "description": "For kitchens around 25m²",
+        "price": 0,
+        "image": "Magnet/Kitchens/20_unit_kitchen_image.jpg"
+      }
+    ]
+  },
+  {
+    "id": "range",
+    "type": "range",
+    "title": "Which kitchen range do you prefer?",
+    "shortTitle": "Range",
+    "description": "Choose your dream kitchen range from the list below.",
+    "tooltip": {
+      "title": "Which kitchen range do you prefer?",
+      "description": [
+        "Simply, select the kitchen range you love the most for your space. And don’t worry about colour for now – that won’t have any impact on price.",
+        "Please note, our whole range of kitchens are available on finance and we’ll show you the approximate Pay Monthly cost in your quote, as well as the total cost."
+      ]
+    },
+    "cards": [
+      {
+        "title": "Ascoli",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "A Modern style kitchen featuring flat, slab-fronted doors in a smooth, matt wood or painted-effect finish.",
+        "priceBand": 1,
+        "colors": [
+          {
+            "name": "Ascoli mineral blue",
+            "src": "Magnet/Kitchens/Swatches/Mineral_blue_swatch.jpg"
+          },
+          {
+            "name": "Ascoli woodland green",
+            "src": "Magnet/Kitchens/Swatches/Woodland_swatch.jpg"
+          },
+          {
+            "name": "Ascoli gloss white",
+            "src": "Magnet/Kitchens/Swatches/Ascoli_White_Gloss_angled.jpg"
+          },
+          {
+            "name": "Ascoli anthracite",
+            "src": "Magnet/Kitchens/Ascoli/Ascoli_Anthracite.png"
+          },
+          {
+            "name": "Ascoli natural oak",
+            "src": "Magnet/Kitchens/Frontals/Ascoli_Natural_Oak_new.png"
+          },
+          {
+            "name": "Ascoli pebble",
+            "src": "Magnet/Kitchens/Frontals/U201_9_3685x7937.jpg"
+          },
+          {
+            "name": "Ascoli dark oak",
+            "src": "Magnet/Kitchens/Swatches/Dark_oak_swatch.png"
+          },
+          {
+            "name": "Ascoli light grey",
+            "src": "Magnet/Kitchens/Integra%20Ascoli/Integra_Ascoli_Light_Grey_Swatch.png"
+          }
+        ],
+        "prices": {
+          "small": 2649,
+          "medium": 4184,
+          "large": 5336,
+          "xlarge": 6891
+        },
+        "prebuiltPrices": {
+          "small": 2958,
+          "medium": 4431,
+          "large": 6122,
+          "xlarge": 7977
+        },
+        "handlelessPrices": {
+          "small": 4175,
+          "medium": 5971,
+          "large": 8222,
+          "xlarge": 10725
+        },
+        "image": "Magnet/Kitchens/Ascoli/VM1152_MAGNET_ASCOLI_DARK_OAK_LIGHT_GREY_S03_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Tatton",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Traditional Shaker style doors in a contemporary design, featuring a smooth, matt-effect finish with style.",
+        "priceBand": 1,
+        "colors": [
+          {
+            "name": "Tatton pebble",
+            "src": "magnet/Price%20Configurator/colors/tatton-pebble.webp"
+          },
+          {
+            "name": "Tatton sage",
+            "src": "Magnet/Kitchens/Tatton/tatton_sage_swatch.png"
+          },
+          {
+            "name": "Tatton grey",
+            "src": "magnet/Price%20Configurator/colors/tatton-grey.webp"
+          },
+          {
+            "name": "Tatton white",
+            "src": "magnet/Price%20Configurator/colors/tatton-white.webp"
+          },
+          {
+            "name": "Tatton graphite",
+            "src": "magnet/Price%20Configurator/colors/tatton-graphite.webp"
+          },
+          {
+            "name": "Tatton midnight",
+            "src": "magnet/Price%20Configurator/colors/tatton-midnight.webp"
+          }
+        ],
+        "prices": {
+          "small": 2790,
+          "medium": 4403,
+          "large": 5820,
+          "xlarge": 7536
+        },
+        "prebuiltPrices": {
+          "small": 3337,
+          "medium": 4973,
+          "large": 7049,
+          "xlarge": 9054
+        },
+        "image": "Magnet/Kitchens/Tatton/8864_Magnet_kitchens_photography_and_video0461.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "title": "Nova",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "A Modern style kitchen featuring flat, slab-fronted doors in a contemporary design with matt or gloss finish.",
+        "priceBand": 1,
+        "colors": [
+          {
+            "name": "Nova gloss white",
+            "src": "Magnet/Kitchens/Nova/Nova_MattWhite_Front.png"
+          },
+          {
+            "name": "Nova matt grey",
+            "src": "Magnet/Kitchens/Nova/Nova_MattGrey_Front.png"
+          },
+          {
+            "name": "Nova matt slate",
+            "src": "Magnet/Kitchens/Nova/Nova_Matt_Slate_Front.png"
+          },
+          {
+            "name": "Nova matt seagrass",
+            "src": "Magnet/Kitchens/Nova/Nova_Seagrass.jpg"
+          }
+        ],
+        "prices": {
+          "small": 2820,
+          "medium": 4470,
+          "large": 5869,
+          "xlarge": 7600
+        },
+        "prebuiltPrices": {
+          "small": 3403,
+          "medium": 5092,
+          "large": 7125,
+          "xlarge": 9163
+        },
+        "handlelessPrices": {
+          "small": 4524,
+          "medium": 6448,
+          "large": 9013,
+          "xlarge": 11681
+        },
+        "image": "Magnet/Kitchens/Nova/Nova_Matt_Slate_Main.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Luna",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Our most popular kitchen with integrated J-pull handles and a sleek Handleless look in gloss and matt finish.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Luna matt midnight",
+            "src": "magnet/Price%20Configurator/colors/luna-matt-midnight.webp"
+          },
+          {
+            "name": "Luna matt graphite",
+            "src": "magnet/Price%20Configurator/colors/luna-matt-graphite.webp"
+          },
+          {
+            "name": "Luna gloss grey",
+            "src": "magnet/Price%20Configurator/colors/luna-gloss-grey.webp"
+          },
+          {
+            "name": "Luna matt white",
+            "src": "magnet/Price%20Configurator/colors/luna-matt-white.webp"
+          },
+          {
+            "name": "Luna matt grey",
+            "src": "magnet/Price%20Configurator/colors/luna-matt-grey.webp"
+          },
+          {
+            "name": "Luna cashmere",
+            "src": "magnet/Price%20Configurator/colors/luna-cashmere.webp"
+          },
+          {
+            "name": "Luna white",
+            "src": "magnet/Price%20Configurator/colors/luna-white.webp"
+          }
+        ],
+        "prices": {
+          "small": 3107,
+          "medium": 5140,
+          "large": 6060,
+          "xlarge": 7920
+        },
+        "prebuiltPrices": {
+          "small": 3816,
+          "medium": 5550,
+          "large": 7547,
+          "xlarge": 9763
+        },
+        "image": "Magnet/Kitchens/Luna/VM1152_MAGNET_SUMMER_22_MAR_22_SC03_S06_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Ambleside",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "With a woodgrain texture that’s perfectly offset by a choice of five versatile colours.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Fern",
+            "src": "Magnet/Price%20Configurator/Colors/ambleside_fern_swatch.png"
+          },
+          {
+            "name": "Smoke",
+            "src": "Magnet/Price%20Configurator/Colors/ambleside_smoke_swatch.png"
+          },
+          {
+            "name": "Graphite",
+            "src": "Magnet/Price%20Configurator/Colors/ambleside_graphite_swatch.png"
+          },
+          {
+            "name": "Moss",
+            "src": "Magnet/Price%20Configurator/Colors/ambleside_moss_swatch.png"
+          },
+          {
+            "name": "Limestone",
+            "src": "Magnet/Price%20Configurator/Colors/ambleside_limestone_swatch.png"
+          }
+        ],
+        "prices": {
+          "small": 3750,
+          "medium": 5942,
+          "large": 7330,
+          "xlarge": 9515
+        },
+        "prebuiltPrices": {
+          "small": 4529,
+          "medium": 6365,
+          "large": 8979,
+          "xlarge": 11565
+        },
+        "image": "Magnet/Kitchens/Ambleside/MAG002_AMBLESIDE_AUG23_SC03_AMBLESIDE_FERN_S03_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          }
+        ]
+      },
+      {
+        "title": "Brunswick",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "A modern slim-frame Shaker kitchen with a super-matt, anti-fingerprint finish, offering a sleek & durable design.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Spruce",
+            "src": "Magnet/Kitchens/Swatches/Spruce-swatch.jpg"
+          },
+          {
+            "name": "Sumi Black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Voyage Blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 3927,
+          "medium": 6205,
+          "large": 7666,
+          "xlarge": 9961
+        },
+        "prebuiltPrices": {
+          "small": 4745,
+          "medium": 6653,
+          "large": 9398,
+          "xlarge": 12113
+        },
+        "handlelessPrices": {
+          "small": 6211,
+          "medium": 8293,
+          "large": 11667,
+          "xlarge": 15110
+        },
+        "image": "Magnet/Kitchens/Brunswick/BRUNSWICK_SUMI_BLACK_S09.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Hoxton",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Smooth, slab doors in a painted-effect finish in a contemporary, minimalist style.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Pebble",
+            "src": "magnet/Price%20Configurator/Colors/hoxton_pebble.jpg"
+          },
+          {
+            "name": "Metallic midnight",
+            "src": "magnet/Price%20Configurator/colors/luna-matt-midnight.webp"
+          },
+          {
+            "name": "Gloss white",
+            "src": "magnet/Price%20Configurator/Colors/gloss_White.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4068,
+          "medium": 6404,
+          "large": 7778,
+          "xlarge": 10147
+        },
+        "prebuiltPrices": {
+          "small": 4915,
+          "medium": 6866,
+          "large": 9483,
+          "xlarge": 12275
+        },
+        "handlelessPrices": {
+          "small": 6309,
+          "medium": 8501,
+          "large": 11754,
+          "xlarge": 15287
+        },
+        "image": "Magnet/Kitchens/Hoxton/VM1152_MAGNET_SC02_MINIMAL_MAXIMALISM_S01_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Portobello",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Portobello pulls together contemporary clean lines and organic woodgrain texture.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Etna",
+            "src": "Magnet/Price%20Configurator/Colors/portobello_etna_swatch.png"
+          },
+          {
+            "name": "Umbra",
+            "src": "Magnet/Price%20Configurator/Colors/portobello_umbra_swatch.png"
+          },
+          {
+            "name": "Bosco",
+            "src": "Magnet/Price%20Configurator/Colors/portobello_bosco_swatch.png"
+          }
+        ],
+        "prices": {
+          "small": 4068,
+          "medium": 6404,
+          "large": 7778,
+          "xlarge": 10147
+        },
+        "prebuiltPrices": {
+          "small": 4915,
+          "medium": 6866,
+          "large": 9483,
+          "xlarge": 12275
+        },
+        "handlelessPrices": {
+          "small": 6469,
+          "medium": 8501,
+          "large": 11754,
+          "xlarge": 15287
+        },
+        "image": "Magnet/Kitchens/Duxbury/VM8026_MAGNET_MAG004_SC02_DUX_ARBORETUM_PORTO_UMBRA_S07_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Duxbury",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Expertly crafted J-pull handles designed to stand the test of time, with a colour-matched reverse.",
+        "priceBand": 2,
+        "colors": [
+          {
+            "name": "Fawn",
+            "src": "Magnet/Price%20Configurator/Colors/duxbury_fawn_swatch.png"
+          },
+          {
+            "name": "Arboretum",
+            "src": "Magnet/Price%20Configurator/Colors/duxbury_arboretum_swatch.png"
+          },
+          {
+            "name": "Limestone",
+            "src": "Magnet/Price%20Configurator/Colors/duxbury_limestone_swatch.png"
+          }
+        ],
+        "prices": {
+          "small": 4045,
+          "medium": 6416,
+          "large": 7321,
+          "xlarge": 9509
+        },
+        "prebuiltPrices": {
+          "small": 5238,
+          "medium": 6825,
+          "large": 9558,
+          "xlarge": 12316
+        },
+        "image": "Magnet/Kitchens/Duxbury/VM8026_MAGNET_MAG004_WINTER_SEP23_SET_01_DUXBURY_LIMESTONE_S03__ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Soho",
+        "collection": "Paint To Order",
+        "ifcAvailable": true,
+        "description": "A premium Modern style design with bold, slab-fronted doors painted in a matt finish and available in 21 colours.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Soho morello",
+            "src": "Magnet/Kitchens/Swatches/Morello_swatch.png"
+          },
+          {
+            "name": "Soho parchment",
+            "src": "Magnet/Kitchens/Swatches/Parchment-swatch.jpg"
+          },
+          {
+            "name": "Soho tailored green",
+            "src": "Magnet/Kitchens/Swatches/Tailored-Green_swatch.png"
+          },
+          {
+            "name": "Soho sumi black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Soho shell",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Shell.png"
+          },
+          {
+            "name": "Soho thyme",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Thyme.png"
+          },
+          {
+            "name": "Soho duck egg",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Duck-Egg.png"
+          },
+          {
+            "name": "Soho baked clay",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Baked-Clay.png"
+          },
+          {
+            "name": "Soho balmoral",
+            "src": "Magnet/Kitchens/Swatches/Balmoral_swatch.png"
+          },
+          {
+            "name": "Soho coastland",
+            "src": "Magnet/Kitchens/Swatches/Coastland_swatch.png"
+          },
+          {
+            "name": "Soho french clay",
+            "src": "Magnet/Kitchens/Swatches/French_Clay_swatch.png"
+          },
+          {
+            "name": "Soho limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Soho chalk blush",
+            "src": "Magnet/Kitchens/Swatches/Chalk_Blush_swatch.jpg"
+          },
+          {
+            "name": "Soho carrington blue",
+            "src": "Magnet/Kitchens/Swatches/Carrington_blue_swatch.jpg"
+          },
+          {
+            "name": "Soho harvest",
+            "src": "Magnet/Kitchens/Swatches/harvest_swatch.jpg"
+          },
+          {
+            "name": "Soho fresh linen",
+            "src": "Magnet/Kitchens/Swatches/Fresh_Linen_swatch.png"
+          },
+          {
+            "name": "Soho midnight",
+            "src": "Magnet/Kitchens/Swatches/Midnight_swatch.png"
+          },
+          {
+            "name": "Soho pebble path",
+            "src": "Magnet/Kitchens/Swatches/Pebble_Path_swatch.png"
+          },
+          {
+            "name": "Soho seagrass",
+            "src": "Magnet/Kitchens/Swatches/Seagrass_swatch.png"
+          },
+          {
+            "name": "Soho arboretum green",
+            "src": "Magnet/Kitchens/Swatches/Arborteum_green_swatch.jpg"
+          },
+          {
+            "name": "Soho morris blue",
+            "src": "Magnet/Kitchens/Swatches/Morris_Blue_swatch.png"
+          },
+          {
+            "name": "Soho charcoals",
+            "src": "Magnet/Kitchens/Swatches/Charcoals_swatch.png"
+          },
+          {
+            "name": "Soho dove grey",
+            "src": "Magnet/Kitchens/Swatches/Dove_Grey_swatch.png"
+          },
+          {
+            "name": "Soho ecalyptus green",
+            "src": "Magnet/Kitchens/Swatches/Eucalyptus_swatch.png"
+          },
+          {
+            "name": "Soho misty moors",
+            "src": "Magnet/Kitchens/Swatches/Misty_Moors_swatch.jpg"
+          },
+          {
+            "name": "Soho sky",
+            "src": "Magnet/Kitchens/Swatches/Sky_swatch.png"
+          },
+          {
+            "name": "Soho washed cotton",
+            "src": "Magnet/Kitchens/Swatches/Washed_Cotton_swatch.png"
+          },
+          {
+            "name": "Soho voyage blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4618,
+          "medium": 7157,
+          "large": 7981,
+          "xlarge": 10669
+        },
+        "prebuiltPrices": {
+          "small": 5784,
+          "medium": 7412,
+          "large": 10283,
+          "xlarge": 13536
+        },
+        "handlelessPrices": {
+          "small": 6394,
+          "medium": 8529,
+          "large": 11893,
+          "xlarge": 15681
+        },
+        "image": "Magnet/Kitchens/Soho/VM1152_MAGNET_SOHO_ARBORETUM_GREEN_S01_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Dunham",
+        "collection": "Uniquely",
+        "ifcAvailable": true,
+        "description": "A contemporary Shaker style design in a velvety matt painted finish featuring sleek panelled doors.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Dunham morello",
+            "src": "Magnet/Kitchens/Swatches/Morello_swatch.png"
+          },
+          {
+            "name": "Dunham parchment",
+            "src": "Magnet/Kitchens/Swatches/Parchment-swatch.jpg"
+          },
+          {
+            "name": "Dunham tailored green",
+            "src": "Magnet/Kitchens/Swatches/Tailored-Green_swatch.png"
+          },
+          {
+            "name": "Dunham sumi black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Dunham shell",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Shell.png"
+          },
+          {
+            "name": "Dunham thyme",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Thyme.png"
+          },
+          {
+            "name": "Dunham duck egg",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Duck-Egg.png"
+          },
+          {
+            "name": "Dunham baked clay",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Baked-Clay.png"
+          },
+          {
+            "name": "Dunham balmoral",
+            "src": "Magnet/Kitchens/Swatches/Balmoral_swatch.png"
+          },
+          {
+            "name": "Dunham coastland",
+            "src": "Magnet/Kitchens/Swatches/Coastland_swatch.png"
+          },
+          {
+            "name": "Dunham french clay",
+            "src": "Magnet/Kitchens/Swatches/French_Clay_swatch.png"
+          },
+          {
+            "name": "Dunham limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Dunham chalk blush",
+            "src": "Magnet/Kitchens/Swatches/Chalk_Blush_swatch.jpg"
+          },
+          {
+            "name": "Dunham carrington blue",
+            "src": "Magnet/Kitchens/Swatches/Carrington_blue_swatch.jpg"
+          },
+          {
+            "name": "Dunham harvest",
+            "src": "Magnet/Kitchens/Swatches/harvest_swatch.jpg"
+          },
+          {
+            "name": "Dunham fresh linen",
+            "src": "Magnet/Kitchens/Swatches/Fresh_Linen_swatch.png"
+          },
+          {
+            "name": "Dunham midnight",
+            "src": "Magnet/Kitchens/Swatches/Midnight_swatch.png"
+          },
+          {
+            "name": "Dunham pebble path",
+            "src": "Magnet/Kitchens/Swatches/Pebble_Path_swatch.png"
+          },
+          {
+            "name": "Dunham seagrass",
+            "src": "Magnet/Kitchens/Swatches/Seagrass_swatch.png"
+          },
+          {
+            "name": "Dunham arboretum green",
+            "src": "Magnet/Kitchens/Swatches/Arborteum_green_swatch.jpg"
+          },
+          {
+            "name": "Dunham morris blue",
+            "src": "Magnet/Kitchens/Swatches/Morris_Blue_swatch.png"
+          },
+          {
+            "name": "Dunham charcoals",
+            "src": "Magnet/Kitchens/Swatches/Charcoals_swatch.png"
+          },
+          {
+            "name": "Dunham dove grey",
+            "src": "Magnet/Kitchens/Swatches/Dove_Grey_swatch.png"
+          },
+          {
+            "name": "Dunham ecalyptus green",
+            "src": "Magnet/Kitchens/Swatches/Eucalyptus_swatch.png"
+          },
+          {
+            "name": "Dunham misty moors",
+            "src": "Magnet/Kitchens/Swatches/Misty_Moors_swatch.jpg"
+          },
+          {
+            "name": "Dunham sky",
+            "src": "Magnet/Kitchens/Swatches/Sky_swatch.png"
+          },
+          {
+            "name": "Dunham washed cotton",
+            "src": "Magnet/Kitchens/Swatches/Washed_Cotton_swatch.png"
+          },
+          {
+            "name": "Dunham voyage blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4594,
+          "medium": 7204,
+          "large": 7998,
+          "xlarge": 10605
+        },
+        "prebuiltPrices": {
+          "small": 5808,
+          "medium": 7511,
+          "large": 10363,
+          "xlarge": 13572
+        },
+        "handlelessPrices": {
+          "small": 7543,
+          "medium": 8664,
+          "large": 12008,
+          "xlarge": 15771
+        },
+        "image": "Magnet/Kitchens/Dunham/Dunham_Voyage_Larder.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Nordic Nature",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Our new contemporary, Scandi-inspired concept, this stunning range sits on the cutting-edge of modern kitchen design.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Nordic nature",
+            "src": "magnet/Price%20Configurator/Colors/nordic_oak.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4770,
+          "medium": 7514,
+          "large": 8385,
+          "xlarge": 10987
+        },
+        "prebuiltPrices": {
+          "small": 6126,
+          "medium": 7941,
+          "large": 10873,
+          "xlarge": 14123
+        },
+        "handlelessPrices": {
+          "small": 7894,
+          "medium": 9177,
+          "large": 12614,
+          "xlarge": 16447
+        },
+        "image": "Magnet/Kitchens/VM1004_MAGNET_MAY_2021_SC08_NORDIC_OAK_S02_NEW_ADOBE_98_HANDLE_UPDATE.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Ludlow",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "Our latest interpretation of the modern country-style kitchen. A matt painted shaker door, available in all Magnet Create shades.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Ludlow morello",
+            "src": "Magnet/Kitchens/Swatches/Morello_swatch.png"
+          },
+          {
+            "name": "Ludlow parchment",
+            "src": "Magnet/Kitchens/Swatches/Parchment-swatch.jpg"
+          },
+          {
+            "name": "Ludlow tailored green",
+            "src": "Magnet/Kitchens/Swatches/Tailored-Green_swatch.png"
+          },
+          {
+            "name": "Ludlow sumi black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Ludlow shell",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Shell.png"
+          },
+          {
+            "name": "Ludlow thyme",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Thyme.png"
+          },
+          {
+            "name": "Ludlow duck egg",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Duck-Egg.png"
+          },
+          {
+            "name": "Ludlow baked clay",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Baked-Clay.png"
+          },
+          {
+            "name": "Ludlow balmoral",
+            "src": "Magnet/Kitchens/Swatches/Balmoral_swatch.png"
+          },
+          {
+            "name": "Ludlow coastland",
+            "src": "Magnet/Kitchens/Swatches/Coastland_swatch.png"
+          },
+          {
+            "name": "Ludlow french clay",
+            "src": "Magnet/Kitchens/Swatches/French_Clay_swatch.png"
+          },
+          {
+            "name": "Ludlow limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Ludlow chalk blush",
+            "src": "Magnet/Kitchens/Swatches/Chalk_Blush_swatch.jpg"
+          },
+          {
+            "name": "Ludlow carrington blue",
+            "src": "Magnet/Kitchens/Swatches/Carrington_blue_swatch.jpg"
+          },
+          {
+            "name": "Ludlow harvest",
+            "src": "Magnet/Kitchens/Swatches/harvest_swatch.jpg"
+          },
+          {
+            "name": "Ludlow fresh linen",
+            "src": "Magnet/Kitchens/Swatches/Fresh_Linen_swatch.png"
+          },
+          {
+            "name": "Ludlow midnight",
+            "src": "Magnet/Kitchens/Swatches/Midnight_swatch.png"
+          },
+          {
+            "name": "Ludlow pebble path",
+            "src": "Magnet/Kitchens/Swatches/Pebble_Path_swatch.png"
+          },
+          {
+            "name": "Ludlow seagrass",
+            "src": "Magnet/Kitchens/Swatches/Seagrass_swatch.png"
+          },
+          {
+            "name": "Ludlow arboretum green",
+            "src": "Magnet/Kitchens/Swatches/Arborteum_green_swatch.jpg"
+          },
+          {
+            "name": "Ludlow morris blue",
+            "src": "Magnet/Kitchens/Swatches/Morris_Blue_swatch.png"
+          },
+          {
+            "name": "Ludlow charcoals",
+            "src": "Magnet/Kitchens/Swatches/Charcoals_swatch.png"
+          },
+          {
+            "name": "Ludlow dove grey",
+            "src": "Magnet/Kitchens/Swatches/Dove_Grey_swatch.png"
+          },
+          {
+            "name": "Ludlow ecalyptus green",
+            "src": "Magnet/Kitchens/Swatches/Eucalyptus_swatch.png"
+          },
+          {
+            "name": "Ludlow misty moors",
+            "src": "Magnet/Kitchens/Swatches/Misty_Moors_swatch.jpg"
+          },
+          {
+            "name": "Ludlow sky",
+            "src": "Magnet/Kitchens/Swatches/Sky_swatch.png"
+          },
+          {
+            "name": "Ludlow washed cotton",
+            "src": "Magnet/Kitchens/Swatches/Washed_Cotton_swatch.png"
+          },
+          {
+            "name": "Ludlow voyage blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4930,
+          "medium": 7584,
+          "large": 8339,
+          "xlarge": 10843
+        },
+        "prebuiltPrices": {
+          "small": 6222,
+          "medium": 7932,
+          "large": 10814,
+          "xlarge": 13947
+        },
+        "handlelessPrices": {
+          "small": 8174,
+          "medium": 9971,
+          "large": 13881,
+          "xlarge": 18108
+        },
+        "image": "Magnet/Kitchens/Ludlow/VM1044_MAGNET_SC02_LUDLOW_PEBBLE_S02_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Wardley",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "With a deep centre panel and painted timber finish, the narrow framing brings this classic kitchen style up to date.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Wardley morello",
+            "src": "Magnet/Kitchens/Swatches/Morello_swatch.png"
+          },
+          {
+            "name": "Wardley parchment",
+            "src": "Magnet/Kitchens/Swatches/Parchment-swatch.jpg"
+          },
+          {
+            "name": "Wardley tailored green",
+            "src": "Magnet/Kitchens/Swatches/Tailored-Green_swatch.png"
+          },
+          {
+            "name": "Wardley sumi black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Wardley shell",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Shell.png"
+          },
+          {
+            "name": "Wardley thyme",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Thyme.png"
+          },
+          {
+            "name": "Wardley duck egg",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Duck-Egg.png"
+          },
+          {
+            "name": "Wardley baked clay",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Baked-Clay.png"
+          },
+          {
+            "name": "Wardley balmoral",
+            "src": "Magnet/Kitchens/Swatches/Balmoral_swatch.png"
+          },
+          {
+            "name": "Wardley coastland",
+            "src": "Magnet/Kitchens/Swatches/Coastland_swatch.png"
+          },
+          {
+            "name": "Wardley french clay",
+            "src": "Magnet/Kitchens/Swatches/French_Clay_swatch.png"
+          },
+          {
+            "name": "Wardley limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Wardley chalk blush",
+            "src": "Magnet/Kitchens/Swatches/Chalk_Blush_swatch.jpg"
+          },
+          {
+            "name": "Wardley carrington blue",
+            "src": "Magnet/Kitchens/Swatches/Carrington_blue_swatch.jpg"
+          },
+          {
+            "name": "Wardley harvest",
+            "src": "Magnet/Kitchens/Swatches/harvest_swatch.jpg"
+          },
+          {
+            "name": "Wardley fresh linen",
+            "src": "Magnet/Kitchens/Swatches/Fresh_Linen_swatch.png"
+          },
+          {
+            "name": "Wardley midnight",
+            "src": "Magnet/Kitchens/Swatches/Midnight_swatch.png"
+          },
+          {
+            "name": "Wardley pebble path",
+            "src": "Magnet/Kitchens/Swatches/Pebble_Path_swatch.png"
+          },
+          {
+            "name": "Wardley seagrass",
+            "src": "Magnet/Kitchens/Swatches/Seagrass_swatch.png"
+          },
+          {
+            "name": "Wardley arboretum green",
+            "src": "Magnet/Kitchens/Swatches/Arborteum_green_swatch.jpg"
+          },
+          {
+            "name": "Wardley morris blue",
+            "src": "Magnet/Kitchens/Swatches/Morris_Blue_swatch.png"
+          },
+          {
+            "name": "Wardley charcoals",
+            "src": "Magnet/Kitchens/Swatches/Charcoals_swatch.png"
+          },
+          {
+            "name": "Wardley dove grey",
+            "src": "Magnet/Kitchens/Swatches/Dove_Grey_swatch.png"
+          },
+          {
+            "name": "Wardley ecalyptus green",
+            "src": "Magnet/Kitchens/Swatches/Eucalyptus_swatch.png"
+          },
+          {
+            "name": "Wardley misty moors",
+            "src": "Magnet/Kitchens/Swatches/Misty_Moors_swatch.jpg"
+          },
+          {
+            "name": "Wardley sky",
+            "src": "Magnet/Kitchens/Swatches/Sky_swatch.png"
+          },
+          {
+            "name": "Wardley washed cotton",
+            "src": "Magnet/Kitchens/Swatches/Washed_Cotton_swatch.png"
+          },
+          {
+            "name": "Wardley voyage blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 4930,
+          "medium": 7584,
+          "large": 8339,
+          "xlarge": 10843
+        },
+        "prebuiltPrices": {
+          "small": 6222,
+          "medium": 7932,
+          "large": 10814,
+          "xlarge": 13947
+        },
+        "handlelessPrices": {
+          "small": 7708,
+          "medium": 9142,
+          "large": 12524,
+          "xlarge": 16230
+        },
+        "image": "Magnet/Kitchens/Wardley/VM8026_MAGNET_MAG003_AW_PTO_SEP23_SC01_WARDLEY_BALMORAL_FRENCH_CLAY_S02_ADOBE_98.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          },
+          {
+            "value": "Handleless",
+            "key": 1
+          }
+        ]
+      },
+      {
+        "title": "Reed",
+        "collection": "Magnet",
+        "ifcAvailable": true,
+        "description": "A contemporary fluted design with a smooth reverse, offering a striking textured finish that can be used across full kitchens or as a feature.",
+        "priceBand": 3,
+        "colors": [
+          {
+            "name": "Reed morello",
+            "src": "Magnet/Kitchens/Swatches/Morello_swatch.png"
+          },
+          {
+            "name": "Reed parchment",
+            "src": "Magnet/Kitchens/Swatches/Parchment-swatch.jpg"
+          },
+          {
+            "name": "Reed tailored green",
+            "src": "Magnet/Kitchens/Swatches/Tailored-Green_swatch.png"
+          },
+          {
+            "name": "Reed sumi black",
+            "src": "Magnet/Kitchens/Swatches/Sumi-black-swatch.jpg"
+          },
+          {
+            "name": "Reed shell",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Shell.png"
+          },
+          {
+            "name": "Reed thyme",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Thyme.png"
+          },
+          {
+            "name": "Reed duck egg",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Duck-Egg.png"
+          },
+          {
+            "name": "Reed baked clay",
+            "src": "Magnet/Kitchens/Swatches/Swatch_Baked-Clay.png"
+          },
+          {
+            "name": "Reed balmoral",
+            "src": "Magnet/Kitchens/Swatches/Balmoral_swatch.png"
+          },
+          {
+            "name": "Reed coastland",
+            "src": "Magnet/Kitchens/Swatches/Coastland_swatch.png"
+          },
+          {
+            "name": "Reed french clay",
+            "src": "Magnet/Kitchens/Swatches/French_Clay_swatch.png"
+          },
+          {
+            "name": "Reed limestone",
+            "src": "Magnet/Kitchens/Swatches/Limestone_swatch.png"
+          },
+          {
+            "name": "Reed chalk blush",
+            "src": "Magnet/Kitchens/Swatches/Chalk_Blush_swatch.jpg"
+          },
+          {
+            "name": "Reed carrington blue",
+            "src": "Magnet/Kitchens/Swatches/Carrington_blue_swatch.jpg"
+          },
+          {
+            "name": "Reed harvest",
+            "src": "Magnet/Kitchens/Swatches/harvest_swatch.jpg"
+          },
+          {
+            "name": "Reed fresh linen",
+            "src": "Magnet/Kitchens/Swatches/Fresh_Linen_swatch.png"
+          },
+          {
+            "name": "Reed midnight",
+            "src": "Magnet/Kitchens/Swatches/Midnight_swatch.png"
+          },
+          {
+            "name": "Reed pebble path",
+            "src": "Magnet/Kitchens/Swatches/Pebble_Path_swatch.png"
+          },
+          {
+            "name": "Reed seagrass",
+            "src": "Magnet/Kitchens/Swatches/Seagrass_swatch.png"
+          },
+          {
+            "name": "Reed arboretum green",
+            "src": "Magnet/Kitchens/Swatches/Arborteum_green_swatch.jpg"
+          },
+          {
+            "name": "Reed morris blue",
+            "src": "Magnet/Kitchens/Swatches/Morris_Blue_swatch.png"
+          },
+          {
+            "name": "Reed charcoals",
+            "src": "Magnet/Kitchens/Swatches/Charcoals_swatch.png"
+          },
+          {
+            "name": "Reed dove grey",
+            "src": "Magnet/Kitchens/Swatches/Dove_Grey_swatch.png"
+          },
+          {
+            "name": "Reed ecalyptus green",
+            "src": "Magnet/Kitchens/Swatches/Eucalyptus_swatch.png"
+          },
+          {
+            "name": "Reed misty moors",
+            "src": "Magnet/Kitchens/Swatches/Misty_Moors_swatch.jpg"
+          },
+          {
+            "name": "Reed sky",
+            "src": "Magnet/Kitchens/Swatches/Sky_swatch.png"
+          },
+          {
+            "name": "Reed washed cotton",
+            "src": "Magnet/Kitchens/Swatches/Washed_Cotton_swatch.png"
+          },
+          {
+            "name": "Reed voyage blue",
+            "src": "Magnet/Kitchens/Swatches/Voyage_blue_swatch.jpg"
+          }
+        ],
+        "prices": {
+          "small": 7187,
+          "medium": 9377,
+          "large": 13169,
+          "xlarge": 17117
+        },
+        "prebuiltPrices": {
+          "small": 7187,
+          "medium": 9377,
+          "large": 13169,
+          "xlarge": 17117
+        },
+        "image": "Magnet/Kitchens/Reed/MAG01009_SUMMER_PHASE_ONE_FEB25_SC01_REED_SHELL_S06.jpg",
+        "showHandleSelection": true,
+        "handles": [
+          {
+            "value": "With handles",
+            "key": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cabinet",
+    "title": "Would you like to buy flat-pack or pre-built?",
+    "shortTitle": "Cabinet",
+    "type": "cabinet",
+    "cards": [
+      {
+        "title": "Flat-pack",
+        "description": "Easily assemble the frames and cabinets yourself.",
+        "imageSrc": "Magnet/Kitchens/Cabinets/cabinet_flat_pack.svg",
+        "type": "flat-pack"
+      },
+      {
+        "title": "Pre-built",
+        "description": "Ready-to-use cabinets, expertly built to save you time.",
+        "imageSrc": "Magnet/Kitchens/Cabinets/cabinet_pre_built.svg",
+        "type": "pre-built"
+      }
+    ]
+  },
+  {
+    "id": "worktops",
+    "title": "Which worktop style would you like?",
+    "shortTitle": "Worktops",
+    "type": "simple",
+    "description": "Pick the style of worktop you’d like.",
+    "tooltip": {
+      "title": "Which worktop style would you like?",
+      "description": [
+        "Enhance your kitchen project with the latest new additions to our range of worktops.",
+        "Choose from laminate, solid wood, minerva and more, to get an idea of pricing for your worktop material."
+      ]
+    },
+    "cards": [
+      {
+        "title": "No worktop",
+        "description": "If you aren’t looking for your kitchen worktop right now, select this option.",
+        "prices": {
+          "small": 0,
+          "medium": 0,
+          "large": 0,
+          "xlarge": 0
+        }
+      },
+      {
+        "title": "Bull nosed laminate",
+        "description": "Soften your kitchen’s edges with smooth rounded corners to your laminate worktops.",
+        "prices": {
+          "small": 145,
+          "medium": 290,
+          "large": 435,
+          "xlarge": 621
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/Bull_nose_c_pad_b_gen_fill_w_300_h_250.png"
+      },
+      {
+        "title": "Square edged laminate",
+        "description": "Angular laminate worktops create a kitchen with smart clean lines.",
+        "prices": {
+          "small": 240,
+          "medium": 481,
+          "large": 721,
+          "xlarge": 962
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/square_edge_c_pad_b_gen_fill_w_1024_h_1024_ar_1_1.png"
+      },
+      {
+        "title": "Compact Laminate",
+        "description": "Durable, water-resistant, and stylish - compact laminate worktops are visually minimal.",
+        "prices": {
+          "small": 623,
+          "medium": 1246,
+          "large": 1868,
+          "xlarge": 2491
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/compact_c_pad_b_gen_fill_w_280_h_200.png"
+      },
+      {
+        "title": "Timber",
+        "description": "Invite warm tones and organic woodgrain texture into your kitchen. ",
+        "prices": {
+          "small": 692,
+          "medium": 1384,
+          "large": 2076,
+          "xlarge": 2768
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/timber_c_pad_b_gen_fill_w_1024_h_1024_ar_1_1.png"
+      },
+      {
+        "title": "Minerva",
+        "description": "Crafted with cutting-edge technology, Minerva worktops are luxurious and durable.",
+        "prices": {
+          "small": 1152,
+          "medium": 2304,
+          "large": 3456,
+          "xlarge": 4608
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/minerva_new_c_pad_b_gen_fill_w_300_h_250.png"
+      },
+      {
+        "title": "Silestone",
+        "description": "Elevate your kitchen with Silestone’s crystal-like appearance and longevity.",
+        "prices": {
+          "small": 2182,
+          "medium": 2617,
+          "large": 3067,
+          "xlarge": 4233
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/silestone_c_pad_b_gen_fill_w_300_h_250.png"
+      },
+      {
+        "title": "Dekton",
+        "description": "Incredibly hard wearing and versatile, Dekton blends porcelain, quartz and stone.",
+        "prices": {
+          "small": 2745,
+          "medium": 3507,
+          "large": 4316,
+          "xlarge": 6164
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/dekton_c_pad_b_gen_fill_w_300_h_250.png"
+      },
+      {
+        "title": "Corian",
+        "description": "Blending natural quartz with man-made materials, Corian is durable yet elegant.",
+        "prices": {
+          "small": 3086,
+          "medium": 4044,
+          "large": 5054,
+          "xlarge": 7365
+        },
+        "image": "Magnet/Price%20Configurator/Worktops/corian_c_pad_b_gen_fill_w_300_h_250.png"
+      }
+    ]
+  },
+  {
+    "id": "installation",
+    "title": "How will your kitchen be installed?",
+    "shortTitle": "Installation",
+    "type": "installation",
+    "description": "Select the installation package you’d prefer.",
+    "tooltip": {
+      "title": "How will your kitchen be installed?",
+      "description": [
+        "We’re the only kitchen specialist whose installation packages are government TrustMark accredited, meaning your Magnet kitchen install will run as smoothly as possible.",
+        "Alternatively, select ‘No installation’ if you’d prefer to use your own fitter or if you’d like our help with finding a local one in your area.",
+        "Whichever you opt for, we’ll work closely with you and your fitter to ensure your kitchen is installed quickly, efficiently and to the best standard."
+      ]
+    },
+    "cards": [
+      {
+        "title": "No installation",
+        "cardType": 0,
+        "description": "Use your own fitter, or we can help you find a reputable fitter in your area.",
+        "prices": {
+          "small": 0,
+          "medium": 0,
+          "large": 0,
+          "xlarge": 0
+        }
+      },
+      {
+        "title": "Magnet dry-fit install",
+        "cardType": 1,
+        "description": "Trustmark installers assemble and fit your kitchen units, trims, panels, plinths, appliances (without connections), and laminate worktops.",
+        "prices": {
+          "small": 1562,
+          "medium": 2149,
+          "large": 2883,
+          "xlarge": 3269
+        }
+      },
+      {
+        "title": "Magnet wet-fit install",
+        "cardType": 2,
+        "description": "Includes full dry-fit service plus connecting electrical appliances and plumbing.",
+        "prices": {
+          "small": 2251,
+          "medium": 2951,
+          "large": 3685,
+          "xlarge": 3958
+        }
+      }
+    ]
+  },
+  {
+    "id": "flooring",
+    "title": "Which kitchen flooring would you like?",
+    "shortTitle": "Flooring",
+    "type": "simple",
+    "description": "Select your ideal choice of flooring. ",
+    "tooltip": {
+      "title": "Which kitchen flooring would you like?",
+      "description": [
+        "Find the perfect base for your kitchen project with our wide selection of flooring materials.",
+        "Select from laminate, Amtico or engineered wood materials to pair perfectly with the rest of your kitchen."
+      ]
+    },
+    "cards": [
+      {
+        "title": "No flooring",
+        "description": "If you aren’t looking for kitchen flooring right now, select this option.",
+        "price": 0
+      },
+      {
+        "title": "Laminate",
+        "description": "Ideal for replicating the look of natural wood or stone flooring, with all the practical benefits and affordability of laminate.",
+        "prices": {
+          "small": 214,
+          "medium": 299,
+          "large": 384,
+          "xlarge": 469
+        },
+        "image": "Magnet/Price%20Configurator/Flooring/Laminate.png"
+      },
+      {
+        "title": "Amtico",
+        "description": "Luxury vinyl flooring that spans wood, stone and abstract styles, designed and manufactured in the UK.",
+        "prices": {
+          "small": 311,
+          "medium": 466,
+          "large": 621,
+          "xlarge": 777
+        },
+        "image": "Magnet/Price%20Configurator/Flooring/Amtico.webp"
+      },
+      {
+        "title": "Engineered",
+        "description": "Combining the natural beauty of solid wood flooring with added stability, our engineered flooring comes in a variety of specifications.",
+        "prices": {
+          "small": 367,
+          "medium": 550,
+          "large": 733,
+          "xlarge": 917
+        },
+        "image": "Magnet/Price%20Configurator/Flooring/Engineered.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sinks",
+    "title": "What style of kitchen sink would you like?",
+    "shortTitle": "Sink",
+    "type": "sinks",
+    "description": "Choose the sink you’d like to add to your project.",
+    "tooltip": {
+      "title": "What style of kitchen sink would you like?",
+      "description": [
+        "With configurations to suit every kitchen and lifestyle, all of our sinks are durable, easy to clean and stylishly designed with modern living in mind."
+      ]
+    },
+    "cards": [
+      {
+        "title": "Franke Ascona",
+        "description": "The Ascona from Franke is a classic stainless steel sink with a practical recessed drainer, and Slimfix system which removes the need for clamps, screws or fixing rails.",
+        "prices": [
+          [
+            256,
+            345
+          ]
+        ],
+        "sinks": [
+          {
+            "value": "1 Bowl",
+            "key": 0
+          },
+          {
+            "value": "1.5 Bowl",
+            "key": 1
+          }
+        ],
+        "price": 256,
+        "images": [
+          [
+            "Magnet/Price%20Configurator/Sinks/1.0B/Franke_Ascona.jpg",
+            "Magnet/Price%20Configurator/Sinks/1.5B/Franke_Ascona_1.5.jpg"
+          ]
+        ]
+      },
+      {
+        "title": "Square",
+        "description": "A timeless design to match any style of kitchen. Add a square sink to your project and choose from a wide range of materials.",
+        "prices": [
+          [
+            275,
+            379
+          ]
+        ],
+        "sinks": [
+          {
+            "value": "1 Bowl",
+            "key": 0
+          },
+          {
+            "value": "1.5 Bowl",
+            "key": 1
+          }
+        ],
+        "price": 275,
+        "images": [
+          [
+            "Magnet/Price%20Configurator/Sinks/1.0B/Square.jpg",
+            "Magnet/Price%20Configurator/Sinks/1.5B/Square_1.5.jpg"
+          ]
+        ]
+      },
+      {
+        "title": "Composite",
+        "description": "Combining hard-wearing stone and durable man made materials, choose a composite sink for ultimate durability to stand the test of time.",
+        "prices": [
+          [
+            287,
+            413
+          ]
+        ],
+        "sinks": [
+          {
+            "value": "1 Bowl",
+            "key": 0
+          },
+          {
+            "value": "1.5 Bowl",
+            "key": 1
+          }
+        ],
+        "price": 287,
+        "images": [
+          [
+            "Magnet/Price%20Configurator/Sinks/1.0B/Compasite.jpg",
+            "Magnet/Price%20Configurator/Sinks/1.5B/Composite_1.5.jpg"
+          ]
+        ]
+      },
+      {
+        "title": "Ceramic",
+        "description": "Add a touch of traditional charm with a ceramic sink. The perfect pairing for Shaker kitchens, our range of ceramic sinks can suit any space. ",
+        "prices": [
+          [
+            447,
+            517
+          ]
+        ],
+        "sinks": [
+          {
+            "value": "1 Bowl",
+            "key": 0
+          },
+          {
+            "value": "1.5 Bowl",
+            "key": 1
+          }
+        ],
+        "price": 447,
+        "images": [
+          [
+            "Magnet/Price%20Configurator/Sinks/1.0B/Ceramic.jpg",
+            "Magnet/Price%20Configurator/Sinks/1.5B/Ceramic_1.5.jpg"
+          ]
+        ]
+      },
+      {
+        "title": "Belfast",
+        "description": "With a deep sink bowl and plenty of space, a Belfast sink is ideal for scrubbing large pots and pans. For practicality and style in equal measure, incorporate a Belfast sink.",
+        "prices": [
+          [
+            483,
+            551
+          ]
+        ],
+        "sinks": [
+          {
+            "value": "1 Bowl",
+            "key": 0
+          },
+          {
+            "value": "1.5 Bowl",
+            "key": 1
+          }
+        ],
+        "price": 483,
+        "images": [
+          [
+            "Magnet/Price%20Configurator/Sinks/1.0B/Belfast.jpg",
+            "Magnet/Price%20Configurator/Sinks/1.5B/Belfast_1.5.jpg"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "taps",
+    "title": "What type of kitchen tap would you like?",
+    "shortTitle": "Tap",
+    "type": "simple",
+    "description": "Choose the tap you’d like to add to your project.",
+    "tooltip": {
+      "title": "What type of kitchen tap would you like?",
+      "description": [
+        "Our latest featured taps include designs with pull out spray features, mixer controls and instant boiling water taps to elevate your day-to-day life.",
+        "Speak to a designer for a complete look at our full range of kitchen taps."
+      ]
+    },
+    "cards": [
+      {
+        "title": "Neptune",
+        "description": "A classic silk steel monobloc mixer tap, with a swivelling spout for directional water flow.",
+        "price": 72,
+        "image": "Magnet/Price%20Configurator/Taps/neptune_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Swan",
+        "description": "In a number of finishes including chrome, brass and brushed nickel, the Swan mixer tap adds Victorian-style elegance to your kitchen.",
+        "price": 141,
+        "image": "Magnet/Price%20Configurator/Taps/swan_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Norrie",
+        "description": "Available in a range of finishes, the Norrie tap is a U-shaped contemporary brushed chrome tap with a swivelling spout for directional water flow.",
+        "price": 215,
+        "image": "Magnet/Price%20Configurator/Taps/norrir_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Pico",
+        "description": "With options to suit every kitchen, choose Abode’s Pico tap for a simple, clean design that effortlessly coordinates with other kitchen accessories.",
+        "price": 214,
+        "image": "Magnet/Price%20Configurator/Taps/pico_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Agilis",
+        "description": "Abode’s Agilis tap is a beautiful blend of design and functionality. An innovative front-facing handle allows easy waterflow control.",
+        "price": 391,
+        "image": "Magnet/Price%20Configurator/Taps/agilis_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Hex Pull Out",
+        "description": "Eye-catching design makes a statement with Abode’s Hex tap. Redefining tap design, Hex embraces industrial elements.",
+        "price": 565,
+        "image": "Magnet/Price%20Configurator/Taps/hex_c_pad_ar_1_1.png"
+      },
+      {
+        "title": "Pronteau by Abode",
+        "description": "The ProTrad 3in1 hot water tap brings Victorian elegance to your kitchen, delivering 98°C steaming hot water on demand.",
+        "price": 823,
+        "image": "Magnet/Price%20Configurator/Taps/abode_protrad_brass_square.png"
+      },
+      {
+        "title": "3in1",
+        "description": "Pour cold, hot and boiling water all from one 3-in-1 tap. Plus, combine a Quooker tap with the CUBE attachment for chilled and sparkling water options.",
+        "price": 1250,
+        "image": "Magnet/Price%20Configurator/Taps/quooker.png"
+      }
+    ]
+  },
+  {
+    "id": "storage",
+    "title": "Would you like to add any kitchen storage?",
+    "shortTitle": "Storage",
+    "type": "storage",
+    "description": "Make your kitchen work for you with smart storage solutions that maximise space.",
+    "tooltip": {
+      "title": "Would you like to add any kitchen storage?",
+      "description": [
+        "Whether you’re looking to make better use of existing space, or create new functional areas of your kitchen, chat to one of our friendly designers who can talk you through our complete range of bespoke storage solutions."
+      ]
+    },
+    "cards": [
+      {
+        "title": "Cutlery tray",
+        "description": "Elevate every detail with a timber cutlery tray that keeps utensils beautifully organised.",
+        "price": 45,
+        "image": "Magnet/Price%20Configurator/Storage/cutlery_tray_c_pad_b_gen_fill_w_300_h_230.jpg",
+        "amount": 0
+      },
+      {
+        "title": "Tower pull out",
+        "description": "Keep your kitchen clutter-free with tower pull-out storage that maximises every inch of space.",
+        "price": 1046,
+        "image": "Magnet/Price%20Configurator/Storage/tower_unit.png",
+        "amount": 0
+      },
+      {
+        "title": "Traditional larder",
+        "description": "Add a traditional larder to your kitchen project and you’ll wonder how you ever lived without one.",
+        "price": 1953,
+        "image": "Magnet/Price%20Configurator/Storage/traditional_larder_c_pad_b_gen_fill_w_299_h_230.jpg",
+        "amount": 0
+      }
+    ]
+  },
+  {
+    "id": "appliances",
+    "title": "How many appliances would you like to add?",
+    "shortTitle": "Appliances",
+    "type": "appliances",
+    "description": "If you have an idea of the number of kitchen appliances you want, select here for a guide price.",
+    "tooltip": {
+      "title": "How many appliances would you like to add?",
+      "description": [
+        "Select your ideal brand and the number of appliances you’re looking for, and our calculator will offer your bespoke price estimate.",
+        "For an in-depth look at the perfect appliance package for you, chat to our friendly kitchen designers."
+      ]
+    },
+    "cards": [
+      {
+        "title": "No appliances",
+        "description": "If you aren’t looking for appliances right now, select this option.",
+        "price": 0
+      },
+      {
+        "title": "3 appliances",
+        "description": "Live better every day with three new appliances.",
+        "price": 844,
+        "appliances": [
+          {
+            "value": "Select brand",
+            "key": 0
+          },
+          {
+            "value": "Beko(£)",
+            "key": 1
+          },
+          {
+            "value": "Bosch(£)",
+            "key": 2
+          },
+          {
+            "value": "AEG 6000(££)",
+            "key": 3
+          },
+          {
+            "value": "Neff(££)",
+            "key": 4
+          },
+          {
+            "value": "Smeg(££)",
+            "key": 5
+          },
+          {
+            "value": "Samsung(££)",
+            "key": 6
+          },
+          {
+            "value": "Miele(£££)",
+            "key": 7
+          },
+          {
+            "value": "Siemens(£££)",
+            "key": 8
+          }
+        ],
+        "prices": [
+          [
+            844,
+            844,
+            1357,
+            1744,
+            2089,
+            1682,
+            2074,
+            3842,
+            3414
+          ]
+        ]
+      },
+      {
+        "title": "4 appliances",
+        "description": "Incorporate four appliances into your kitchen project.",
+        "price": 1164,
+        "appliances": [
+          {
+            "value": "Select brand",
+            "key": 0
+          },
+          {
+            "value": "Beko(£)",
+            "key": 1
+          },
+          {
+            "value": "Bosch(£)",
+            "key": 2
+          },
+          {
+            "value": "AEG 6000(££)",
+            "key": 3
+          },
+          {
+            "value": "Neff(££)",
+            "key": 4
+          },
+          {
+            "value": "Smeg(££)",
+            "key": 5
+          },
+          {
+            "value": "Samsung(££)",
+            "key": 6
+          },
+          {
+            "value": "Miele(£££)",
+            "key": 7
+          },
+          {
+            "value": "Siemens(£££)",
+            "key": 8
+          }
+        ],
+        "prices": [
+          [
+            1164,
+            1164,
+            2005,
+            2251,
+            2637,
+            2067,
+            2701,
+            4952,
+            4433
+          ]
+        ]
+      },
+      {
+        "title": "5 appliances",
+        "description": "Elevate your kitchen with five new appliances.",
+        "price": 1714,
+        "appliances": [
+          {
+            "value": "Select brand",
+            "key": 0
+          },
+          {
+            "value": "Beko(£)",
+            "key": 1
+          },
+          {
+            "value": "Bosch(£)",
+            "key": 2
+          },
+          {
+            "value": "AEG 6000(££)",
+            "key": 3
+          },
+          {
+            "value": "Neff(££)",
+            "key": 4
+          },
+          {
+            "value": "Smeg(££)",
+            "key": 5
+          },
+          {
+            "value": "Samsung(££)",
+            "key": 6
+          },
+          {
+            "value": "Miele(£££)",
+            "key": 7
+          },
+          {
+            "value": "Siemens(£££)",
+            "key": 8
+          }
+        ],
+        "prices": [
+          [
+            1714,
+            1714,
+            2921,
+            2965,
+            3464,
+            2787,
+            3930,
+            6345,
+            5404
+          ]
+        ]
+      },
+      {
+        "title": "6 appliances",
+        "description": "Make your kitchen a hub of modern technology.",
+        "price": 2223,
+        "appliances": [
+          {
+            "value": "Select brand",
+            "key": 0
+          },
+          {
+            "value": "Beko(£)",
+            "key": 1
+          },
+          {
+            "value": "Bosch(£)",
+            "key": 2
+          },
+          {
+            "value": "AEG 6000(££)",
+            "key": 3
+          },
+          {
+            "value": "Neff(££)",
+            "key": 4
+          },
+          {
+            "value": "Samsung(££)",
+            "key": 5
+          },
+          {
+            "value": "Miele(£££)",
+            "key": 6
+          },
+          {
+            "value": "Siemens(£££)",
+            "key": 7
+          }
+        ],
+        "prices": [
+          [
+            2223,
+            2223,
+            3580,
+            3934,
+            4282,
+            4598,
+            7386,
+            6219
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estimate",
+    "title": "Estimate",
+    "type": "summary",
+    "description": "",
+    "tooltip": {}
+  }
+]

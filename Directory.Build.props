@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <RestoreConfigFile>$(MSBuildThisFileDirectory)nuget.config</RestoreConfigFile>
+  </PropertyGroup>
+</Project>

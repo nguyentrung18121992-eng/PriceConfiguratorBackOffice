@@ -1,0 +1,13 @@
+**/.git
+**/.vs
+**/bin
+**/obj
+**/_build-check
+**/.cursor
+**/.planning
+**/agent-transcripts
+**/*.user
+**/*.suo
+**/appsettings.local.json
+**/.env
+**/node_modules

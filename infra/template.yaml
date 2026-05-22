@@ -1,0 +1,12 @@
+healthcheck: /api/healthcheck
+configs:
+  - dotnet
+  - tokens-api
+  - application-insights
+  - nobia-endpoints
+secrets:
+  - price-configurator-back-office
+  - cloudinary
+  - cosmosdb-key
+  - data-protection
+  - tokens-backend-api

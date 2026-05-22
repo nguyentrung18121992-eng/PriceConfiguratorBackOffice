@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "priceconfigurator": "AccountEndpoint=https://localhost:8081/;AccountKey=<cosmos-db-emulator-key>"
+  },
+  "CloudinarySecret": "<from-user-secrets-or-vault>"
+}

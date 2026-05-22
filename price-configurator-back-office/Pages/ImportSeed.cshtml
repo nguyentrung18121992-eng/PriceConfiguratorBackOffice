@@ -1,0 +1,69 @@
+@page "{brand}"
+@model PriceConfiguratorBackoffice.Pages.ImportSeedModel
+
+@{
+    ViewData["Title"] = "Import from seed";
+}
+
+<style>
+    .import-card {
+        margin: 0 auto;
+        max-width: 720px;
+    }
+</style>
+
+<div class="container-lg container-fluid main-container">
+    <div class="import-card card p-4">
+        <h1 class="h2 mb-3">Import from seed file</h1>
+
+        <div class="alert alert-warning">
+            <strong>Do not use Admin → Import data</strong> for <code>*.payload.json</code> files.
+            That screen expects a <strong>CmsToolkit export</strong> (JSON array with <code>Brand</code>, <code>Id</code>, <code>type</code> per entity).
+            Seed files use a different shape (<code>sections</code> + <code>messages</code>) and will fail with
+            <em>The given key 'Brand' was not present in the dictionary</em>.
+        </div>
+
+        <p class="text-muted mb-4">
+            Brand: <strong>@Model.Brand</strong> ·
+            Seed file: <code>Data/Seeds/@Model.SeedFileName</code> ·
+            CMS language after import: <strong>@Model.CmsLanguageCode</strong>
+        </p>
+
+        @if (!string.IsNullOrWhiteSpace(Model.StatusMessage))
+        {
+            <div class="alert @(Model.StatusSuccess ? "alert-success" : "alert-danger")" role="alert">
+                @Model.StatusMessage
+            </div>
+        }
+
+        <p>
+            This loads bundled frontend configuration from the seed JSON into <strong>draft</strong> CMS entities
+            (sections, cards, messages, settings, range price sets). It does not publish to the live site.
+        </p>
+
+        <p class="text-muted small">
+            Refresh seeds from the frontend repo first:
+            <code>.\scripts\sync-seeds-from-frontend.ps1</code> (from the back-office repo root).
+        </p>
+
+        <form method="post" asp-page-handler="Import">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="language" value="@Model.CmsLanguageCode" />
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="replaceExisting" name="replaceExisting" value="true" checked />
+                <label class="form-check-label" for="replaceExisting">
+                    Replace existing — remove CMS rows for this brand that are not in the seed file
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Import from seed</button>
+        </form>
+
+        <hr class="mt-4" />
+
+        <p class="mb-0">
+            After import, go to
+            <a class="link-secondary" href="@Url.Page("/Publish", new { brand = Model.Brand, language = Model.CmsLanguageCode })">Publish</a>
+            to make changes live.
+        </p>
+    </div>
+</div>

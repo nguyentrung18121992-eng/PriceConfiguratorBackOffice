@@ -1,0 +1,95 @@
+@page "{brand}"
+@model PriceConfiguratorBackoffice.Pages.PublishModel
+
+@{
+    ViewData["Title"] = "Publish configuration";
+}
+
+<style>
+    .publish-card {
+        margin: 0 auto;
+        max-width: 720px;
+    }
+</style>
+
+<div class="container-lg container-fluid main-container">
+    <div class="publish-card card p-4">
+        <h1 class="h2 mb-3">Publish configuration</h1>
+
+        @if (Model.Language is { Available: false })
+        {
+            <div class="alert alert-warning">
+                CMS language <strong>@Model.Language.Name</strong> is not registered for this brand.
+                Use the language selector (e.g. <strong>en</strong> for Magnet) in the top bar, then open Publish again.
+            </div>
+        }
+
+        <p class="text-muted mb-4">
+            Brand: <strong>@Model.Brand</strong> ·
+            Live site locale: <strong>@Model.ApiLanguage</strong> ·
+            CMS language: <strong>@Model.CmsLanguageCode</strong>
+        </p>
+
+        @if (!string.IsNullOrWhiteSpace(Model.StatusMessage))
+        {
+            <div class="alert @(Model.StatusSuccess ? "alert-success" : "alert-danger")" role="alert">
+                @Model.StatusMessage
+            </div>
+        }
+
+        @if (Model.LatestPublishedVersion is int version)
+        {
+            <p>
+                Current live version: <strong>v@version</strong>
+                @if (Model.LatestPublishedAt is DateTime at)
+                {
+                    <span class="text-muted">(published @at.ToString("u"))</span>
+                }
+            </p>
+        }
+        else
+        {
+            <p class="text-muted">Nothing published yet for this brand and language.</p>
+        }
+
+        <p>
+            Publishing copies your current <strong>draft</strong> sections, cards, and messages into a new
+            <strong>published configuration</strong> snapshot. The public configurator loads that snapshot
+            (not draft edits) until you publish again.
+        </p>
+
+        <form method="post" asp-page-handler="PublishNow" class="mb-4">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="language" value="@Model.CmsLanguageCode" />
+            <button type="submit" class="btn btn-primary btn-lg">
+                Publish now
+            </button>
+        </form>
+
+        <hr />
+
+        <h2 class="h5">Schedule publish (UTC)</h2>
+        <p class="text-muted small">Choose a future date and time in UTC. A background job will publish automatically.</p>
+        <form method="post" asp-page-handler="Schedule" class="row g-3 align-items-end">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="language" value="@Model.CmsLanguageCode" />
+            <div class="col-auto">
+                <label class="form-label" for="scheduledAtUtc">Scheduled at (UTC)</label>
+                <input class="form-control" type="datetime-local" id="scheduledAtUtc" name="scheduledAtUtc"
+                       value="@DateTime.UtcNow.AddHours(1).ToString("yyyy-MM-ddTHH:mm")" required />
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-outline-primary">Schedule publish</button>
+            </div>
+        </form>
+
+        <hr class="mt-4" />
+
+        <p class="mb-0">
+            <a class="link-secondary"
+               href="@Url.Page("/List", new { type = nameof(PriceConfiguratorBackoffice.Models.PublishedConfiguration), brand = Model.Brand, language = Model.CmsLanguageCode })">
+                View published configuration history
+            </a>
+        </p>
+    </div>
+</div>

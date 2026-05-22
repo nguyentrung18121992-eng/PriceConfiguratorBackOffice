@@ -1,0 +1,498 @@
+{
+  "sections": [
+    {
+      "id": "range",
+      "type": "range",
+      "title": "Köksmodeller",
+      "shortTitle": "Kök",
+      "description": "Välj din köksmodell.",
+      "tooltip": {
+        "title": "Våra köksmodeller",
+        "description": [
+          "Vi erbjuder ett brett sortiment av olika köksmodeller i lantlig, klassisk och modern stil. Priset kan variera för samma modell beroende på färg- och materialval.",
+          "Med vår finansieringslösning  kan du välja att betala lite i taget."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Arkitekt Plus",
+          "collection": "Marbodal",
+          "description": "Arkitekt plus kan anta olika stilar beroende på styling. Köksluckan fungerar fint med och utan handtag. Finns ek och samtliga kulörer i vår Jordnära kollektion.",
+          "colors": [
+            {
+              "name": "Arkitekt plus sand",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-sand.webp"
+            },
+            {
+              "name": "Arkitekt plus granit",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-granit.webp"
+            },
+            {
+              "name": "Arkitekt plus tall",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-tall.webp"
+            },
+            {
+              "name": "Arkitekt plus frö",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-fro.webp"
+            },
+            {
+              "name": "Arkitekt plus bark",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-bark.webp"
+            },
+            {
+              "name": "Arkitekt plus hav",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-hav.webp"
+            },
+            {
+              "name": "Arkitekt plus svartbetsad ek",
+              "src": "Marbodal/Price%20Configurator/Colors/arkitektplus-ek-svartbets.webp"
+            },
+            {
+              "name": "Arkitekt plus ek",
+              "src": "Marbodal/Price%20Configurator/Colors/arkitektplus-ek.webp"
+            },
+            {
+              "name": "Arkitekt plus åska",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-aska.webp"
+            },
+            {
+              "name": "Arkitekt plus moln",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-moln.webp"
+            },
+            {
+              "name": "Arkitekt plus lin",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-lin.webp"
+            },
+            {
+              "name": "Arkitekt plus frost",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-frost.webp"
+            }
+          ],
+          "prices": {
+            "small": 60720,
+            "medium": 127560,
+            "large": 127920
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/arkitektplus.jpg"
+        },
+        {
+          "title": "Signatur Ekbacken",
+          "collection": "Marbodal",
+          "description": "Signatur Ekbacken är ett brun fanérat ek kök med ett formspråk inspirerat av naturen som formgivare.",
+          "colors": [
+            {
+              "name": "Signatur Ekbacken brunbets",
+              "src": "Marbodal/Price%20Configurator/Colors/signatur-ekbacken-brunbets.jpg"
+            }
+          ],
+          "prices": {
+            "small": 120000,
+            "medium": 228000,
+            "large": 240000
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/signatur-ekbacken.jpg"
+        },
+        {
+          "title": "Fagerö",
+          "collection": "Marbodal",
+          "description": "Fagerö är ett kök i lantlig stil som finns i alla kulörer i vår Jordnära kollektion.",
+          "colors": [
+            {
+              "name": "Fagerö tall",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-tall.webp"
+            },
+            {
+              "name": "Fagerö granit",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-granit.webp"
+            },
+            {
+              "name": "Fagerö frö",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-fro.webp"
+            },
+            {
+              "name": "Fagerö bark",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-bark.webp"
+            },
+            {
+              "name": "Fagerö hav",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-hav.webp"
+            },
+            {
+              "name": "Fagerö åska",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-aska.webp"
+            },
+            {
+              "name": "Fagerö moln",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-moln.webp"
+            },
+            {
+              "name": "Fagerö lin",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-lin.webp"
+            },
+            {
+              "name": "Fagerö frost",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-frost.webp"
+            },
+            {
+              "name": "Fagerö sand",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-sand.webp"
+            }
+          ],
+          "prices": {
+            "small": 67440,
+            "medium": 141480,
+            "large": 133920
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/fagero.jpg"
+        },
+        {
+          "title": "Form",
+          "collection": "Marbodal",
+          "description": "Form är ett inbjudande kök som kan stylas i alla stilar. Finns i samtliga kulörer i vår Jordnära kollektion.",
+          "colors": [
+            {
+              "name": "Form åska",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-aska.webp"
+            },
+            {
+              "name": "Form granit",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-granit.webp"
+            },
+            {
+              "name": "Form tall",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-tall.webp"
+            },
+            {
+              "name": "Form frö",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-fro.webp"
+            },
+            {
+              "name": "Form bark",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-bark.webp"
+            },
+            {
+              "name": "Form hav",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-hav.webp"
+            },
+            {
+              "name": "Form moln",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-moln.webp"
+            },
+            {
+              "name": "Form lin",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-lin.webp"
+            },
+            {
+              "name": "Form frost",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-frost.webp"
+            },
+            {
+              "name": "Form sand",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-sand.webp"
+            }
+          ],
+          "prices": {
+            "small": 60720,
+            "medium": 127560,
+            "large": 123120
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/form.jpg"
+        },
+        {
+          "title": "Lindö",
+          "collection": "Marbodal",
+          "description": "Lindö har en klassisk exklusiv ramlucka med brett färgval. Av alla våra kök är Lindö det som har mest profilerad ram och spegel.",
+          "colors": [
+            {
+              "name": "Lindö frost",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-frost.webp"
+            },
+            {
+              "name": "Lindö granit",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-granit.webp"
+            },
+            {
+              "name": "Lindö tall",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-tall.webp"
+            },
+            {
+              "name": "Lindö frö",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-fro.webp"
+            },
+            {
+              "name": "Lindö bark",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-bark.webp"
+            },
+            {
+              "name": "Lindö hav",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-hav.webp"
+            },
+            {
+              "name": "Lindö åska",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-aska.webp"
+            },
+            {
+              "name": "Lindö moln",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-moln.webp"
+            },
+            {
+              "name": "Lindö lin",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-lin.webp"
+            },
+            {
+              "name": "Lindö sand",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-sand.webp"
+            },
+            {
+              "name": "Lindö ek",
+              "src": "Marbodal/Price%20Configurator/Colors/arkitektplus-ek.webp"
+            }
+          ],
+          "prices": {
+            "small": 67440,
+            "medium": 141480,
+            "large": 134040
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/lindo.jpg"
+        },
+        {
+          "title": "Viken",
+          "collection": "Marbodal",
+          "description": "Viken är ett minimalistiskt kök med integrerat grepp i luckan som skapar ett effektfullt linjespel. Ett snyggt och handtagslöst kök.",
+          "colors": [
+            {
+              "name": "Viken åska",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-aska.webp"
+            },
+            {
+              "name": "Viken frost",
+              "src": "Marbodal/Price%20Configurator/Colors/jordnara-frost.webp"
+            }
+          ],
+          "prices": {
+            "small": 64200,
+            "medium": 131760,
+            "large": 131520
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/viken.jpg"
+        },
+        {
+          "title": "Ramsvik",
+          "collection": "Marbodal",
+          "description": "Ramsvik är ett klassiskt kök i svartbets, ek. Skapa modern shakerstil med Ramsvik, stor köksö och knopplist.",
+          "colors": [
+            {
+              "name": "Ramsvik svartbetsad ek",
+              "src": "Marbodal/Price%20Configurator/Colors/arkitektplus-ek-svartbets.webp"
+            },
+            {
+              "name": "Ramsvik ek",
+              "src": "Marbodal/Price%20Configurator/Colors/arkitektplus-ek.webp"
+            }
+          ],
+          "prices": {
+            "small": 64560,
+            "medium": 132840,
+            "large": 131880
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/ramsvik.jpg"
+        },
+        {
+          "title": "Malevik",
+          "collection": "Marbodal",
+          "description": "Malevik är ett modernt och minimalistiskt kök med möbelkänsla i tålig MFC. Köksluckan har ett trämönster där strukturen inger en levande träkänsla.",
+          "colors": [
+            {
+              "name": "Malevik brun",
+              "src": "Marbodal/Price%20Configurator/Colors/malevik-brun.webp"
+            },
+            {
+              "name": "Malevik ljus",
+              "src": "Marbodal/Price%20Configurator/Colors/malevik-ljus.webp"
+            }
+          ],
+          "prices": {
+            "small": 53520,
+            "medium": 109200,
+            "large": 107280
+          },
+          "image": "Marbodal/Price%20Configurator/Ranges/malevik.jpg"
+        }
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Storleken påverkar priset",
+      "shortTitle": "Storleken påverkar priset",
+      "type": "units",
+      "description": "Avser snittpris på kök utan vitvaror, bänkskiva eller installation.",
+      "tooltip": {
+        "title": "Köksstorlekar",
+        "description": [
+          "I ett mindre kök, < 10 m2,  får du exv. plats med 5 underskåp, 3 väggskåp, 1 högskåp.",
+          "I ett vinkelkök, 10-20 m2, ryms exv. 8 underskåp, 5 väggskåp, 2 högskåp.",
+          "I ett kök med köksö, < 20 m2, får du plats med exv. 12 underskåp, 8 väggskåp, 3 högskåp samt köksö."
+        ]
+      },
+      "cards": [
+        {
+          "type": "small",
+          "title": "Mindre kök",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/small.png"
+        },
+        {
+          "type": "medium",
+          "title": "Vinkelkök",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/medium.png"
+        },
+        {
+          "type": "large",
+          "title": "Kök med köksö",
+          "price": 0,
+          "image": "Marbodal/Price%20Configurator/Units/large.png"
+        }
+      ]
+    },
+    {
+      "id": "worktops",
+      "title": "Bänkskivor",
+      "type": "simple",
+      "description": "Välj vilken typ av bänkskiva du vill ha.",
+      "tooltip": {
+        "title": "Våra bänkskivor",
+        "description": [
+          "Välj mellan laminat, massivt trä och granit och kombinera med köksstorlek för att få ett ungefärligt pris-estimat.",
+          "Vi erbjuder en mängd olika bänkskivor i varje material, så du kan välja den faktiska bänkskivan i ett senare skede."
+        ]
+      },
+      "cards": [
+        {
+          "title": "Laminat",
+          "description": "Laminatbänkskivorna har ett brett sortiment av en mängd olika ytor, mönster och färger.",
+          "prices": {
+            "small": 17160,
+            "medium": 22200,
+            "large": 26640
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/laminat.jpg"
+        },
+        {
+          "title": "Massivt Trä",
+          "description": "Bänkskivor i massivt trä är både levande och varmt, genuint och vackert, det tål att åldras.",
+          "prices": {
+            "small": 32520,
+            "medium": 48600,
+            "large": 56040
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/ek.jpg"
+        },
+        {
+          "title": "Rostfri",
+          "description": "En rostfri bänkskiva är ett snyggt, lättskött och tåligt alternativ till ditt kök.",
+          "prices": {
+            "small": 42996,
+            "medium": 56880,
+            "large": 75120
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/rostfri.jpg"
+        },
+        {
+          "title": "Granit",
+          "description": "De vackra bänkskivorna i granit finns i en mängd olika lyxiga putsningar som passar till alla kök. Varje lager är unikt, så du kan vara säker på att även ditt kök blir det.",
+          "prices": {
+            "small": 52440,
+            "medium": 116160,
+            "large": 91440
+          },
+          "image": "Marbodal/Price%20Configurator/Worktops/granit.jpg"
+        }
+      ]
+    },
+    {
+      "id": "estimate",
+      "title": "Estimat",
+      "type": "summary",
+      "description": "",
+      "tooltip": {}
+    }
+  ],
+  "messages": {
+    "app.routes.main-title": "Prisindikator",
+    "app.routes.home.path": "/",
+    "app.routes.home.title": "Hem",
+    "app.header.title": "Prisexempel - vad kostar ett kök?",
+    "app.header.description": "Här får du en uppskattning av vad kostnaden blir för ditt nya Marbodalkök, du väljer bara köksmodell, storlek på köket samt bänkskiva. För att sedan få exakt ditt kök uppritat och prissatt, bokar du ett möte med en köksdesigner så hjälper vi dig att skapa just ditt drömkök.",
+    "app.header.readMore": "Läs mer",
+    "app.header.readLess": "Läs mindre",
+    "app.bada.title": "Boka möte med en designer",
+    "app.bada.instore-and-online.description": "Vi träffas digitalt, på telefon eller i butik.",
+    "app.bada.expert-guidance.description": "När du är redo tar vi fram ritning och offert till dig, efter dina önskemål.",
+    "app.bada.3D-design.description": " ",
+    "app.bada.kitchen-project-account.description": "Spara, titta och gå genom ritningar, design och offert under Mitt Marbodal.",
+    "app.bada.call-to-action.description": "Boka nu",
+    "app.bada.call-to-action.link": "https://www.marbodal.se/boka-mote/",
+    "app.bada.img.src": "https://dgg9enyjv-ressh.cloudinary.com/image/upload/c_crop,h_2000,w_2170,y_300/q_auto,w_550/v1631880227/Marbodal/113988_marbodal-goteborg-gruppbild.jpg",
+    "app.finance.title": "Finansiera ditt kök",
+    "app.finance.description": "Med våra flexibla lösningar finns det något för alla budgetar, ditt drömkök kan snart vara färdigt.",
+    "app.finance.buy-now-pay-later.title": "Köp nu, betala senare",
+    "app.finance.buy-now-pay-later.description-1": "Lägg din order och betala om den ett år",
+    "app.finance.buy-now-pay-later.description-2": "Betala per månad efter de första 12 månaderna",
+    "app.finance.buy-now-pay-later.description-3": "Det mest populära finansierings-alternativet",
+    "app.finance.pay-monthly.title": "Betala per månad",
+    "app.finance.pay-monthly.description-1": "Sprid ut dina kostnader per månad",
+    "app.finance.pay-monthly.description-2": "Välj mellan olika betalningsplaner",
+    "app.finance.pay-monthly.description-3": "12, 24 eller 36 månader",
+    "app.finance.pay-upfront.title": "Betala direkt",
+    "app.finance.pay-upfront.description-1": "Betala en deposition på endast 950kr kr för att lägga din order",
+    "app.finance.pay-upfront.description-2": "Den resterande kostnaden betalas senast två veckor innan leveransdagen",
+    "app.finance.pay-upfront.description-3": "Inga finansiella tjänster behövs",
+    "app.finance.terms-and-conditions.link": "https://www.marbodal.se/finansiering/",
+    "app.finance.terms-and-conditions.description": "Våra finansieringslösningar",
+    "app.components.summary.icon-url": "https://assets.nobiadigital.com/image/upload/v1655812003/Marbodal/Icons/arrow-down-pc.svg",
+    "app.components.summary.title": "Prisuppskattning:",
+    "app.components.cost-summary.title": "Prisuppskattning:",
+    "app.components.cost-summary.alternative": "eller",
+    "app.components.cost-summary.per-month": "/mån",
+    "app.components.cost-summary.in": "i",
+    "app.components.cost-summary.info": "Månadskostnad i",
+    "app.components.cost-summary.months": "mån",
+    "app.components.email.title": "Spara din prisuppskattning",
+    "app.components.email.description": "Fyll i din mailadress så vi skickar vi din prisuppskattning.",
+    "app.components.email.placeholder": "Din emailaddress",
+    "app.components.email.error": "Skriv in en giltig emailaddress",
+    "app.components.email.opt-in": "Jag vill gärna ta emot nyhetsbrev och erbjudanden från Marbodal.",
+    "app.components.email.call-to-action": "Skicka",
+    "app.components.email.sent.title": "Prisuppskattning sparad",
+    "app.components.email.sent.description.pre-email": "Ett email har skickats till",
+    "app.components.email.sent.description.post-email": " med din detaljerade prisuppskattning.",
+    "app.components.email.sent.call-to-action": "Skicka en ny prisuppskattning",
+    "app.components.email.book-a-meeting.call-to-action": "Boka möte med designer",
+    "app.components.login.button": "Se din prisuppskattning",
+    "app.components.login.modal.title": "Nästan där – bara ett steg kvar",
+    "app.components.login.modal.description": "Vi vet att det är ett extra steg, och vi uppskattar ditt tålamod. För att se dina resultat måste du antingen logga in på ditt befintliga konto eller skapa ett nytt.",
+    "app.components.login.modal.login": "Logga in",
+    "app.components.login.modal.createAccount": "Skapa nytt konto",
+    "app.components.login.modal.or": "Eller",
+    "app.components.price-band.currency": "$",
+    "app.components.card.units": "enheter",
+    "app.components.card.from": "Från ",
+    "app.components.installation.title": "Get installation estimate",
+    "app.components.installation.description": "Tell us a bit more so we can give you a  preliminary price for installation.",
+    "app.components.installation.postal-code": "Post code",
+    "app.components.installation.postal-code-info": "for installation location",
+    "app.components.installation.high-rise": "If upstairs, does the installation location have lift access?",
+    "app.components.installation.high-rise-info": "Please select this if there is a flight of stairs required for access.",
+    "app.components.installation.parking-difficult": "Is parking difficult where you live?",
+    "app.components.installation.parking-difficult-info": "A pre-fit survey will determine if parking issues add extra costs.",
+    "app.components.installation.yes": "Yes",
+    "app.components.installation.no": "No",
+    "app.components.installation.price": "Your preliminary installation price",
+    "app.components.installation.price-estimate": "Price estimate",
+    "app.components.installation.save-and-close": "Save and close",
+    "app.components.installation.close": "Close",
+    "app.country.code": "sv-SE",
+    "app.country.currency": "SEK"
+  }
+}
