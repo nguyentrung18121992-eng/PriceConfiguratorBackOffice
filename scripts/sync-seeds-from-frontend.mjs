@@ -48,5 +48,8 @@ for (const { brand, language } of BRANDS) {
   const payload = { sections, messages }
   const outPath = path.join(outDir, `${brand}-${language}.payload.json`)
   writeFileSync(outPath, JSON.stringify(payload, null, 2), 'utf8')
+  const messagesOutPath = path.join(outDir, `${brand}-${language}.messages.json`)
+  writeFileSync(messagesOutPath, JSON.stringify(messages, null, 2), 'utf8')
   console.log(`Wrote ${outPath} (${sections.length} sections, ${Object.keys(messages).length} messages)`)
+  console.log(`Wrote ${messagesOutPath}`)
 }

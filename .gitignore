@@ -7,9 +7,11 @@ obj/
 *.user
 *.suo
 .tmp-*
+*.dll
 
-# Ad-hoc dotnet output copy (e.g. msbuild -o _build-check)
+# Ad-hoc dotnet output copy (e.g. msbuild -o _build-check / .build-out)
 **/_build-check/
+.build-out/
 
 .env
 

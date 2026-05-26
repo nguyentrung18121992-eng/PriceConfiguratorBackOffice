@@ -73,25 +73,114 @@ public static class CardPayloadHelper
     public static string NormalizeKeyValueListJson(string? json) =>
         NormalizeKeyValueListJsonDetailed(json).Json;
 
-    public static string NormalizeImagesJson(string? json)
+    /// <summary>
+    /// One Cloudinary path per sink option, in the same order as the Sinks list.
+    /// Legacy nested arrays <c>[[a,b]]</c> are flattened on read.
+    /// </summary>
+    public static string NormalizeImagesJson(string? json, string? sinksJson = null)
+    {
+        var flat = ParseImagesToFlatList(json);
+        var sinks = ParseSinkOptionsInOrder(sinksJson);
+
+        if (sinks.Count > 0)
+        {
+            flat = AlignPathsToSinkCount(flat, sinks.Count);
+        }
+        else
+        {
+            flat = flat.Where(path => !string.IsNullOrWhiteSpace(path)).ToList();
+        }
+
+        return flat.Count == 0 ? "[]" : JsonSerializer.Serialize(flat, JsonOptions);
+    }
+
+    public static IReadOnlyList<string> ParseImagesToFlatList(string? json)
     {
         if (IsEmptyArray(json))
         {
-            return "[]";
+            return [];
         }
 
         try
         {
-            var sets = JsonSerializer.Deserialize<List<List<string>>>(json!, JsonOptions) ?? [];
-            var filtered = sets
-                .Select(set => set.Where(path => !string.IsNullOrWhiteSpace(path)).ToList())
-                .Where(set => set.Count > 0)
-                .ToList();
-            return filtered.Count == 0 ? "[]" : JsonSerializer.Serialize(filtered, JsonOptions);
+            using var doc = JsonDocument.Parse(json);
+            var root = doc.RootElement;
+            if (root.ValueKind != JsonValueKind.Array)
+            {
+                return [];
+            }
+
+            if (root.GetArrayLength() == 0)
+            {
+                return [];
+            }
+
+            if (root[0].ValueKind == JsonValueKind.String)
+            {
+                return root.EnumerateArray()
+                    .Select(e => e.GetString() ?? string.Empty)
+                    .ToList();
+            }
+
+            var flattened = new List<string>();
+            foreach (var item in root.EnumerateArray())
+            {
+                if (item.ValueKind != JsonValueKind.Array)
+                {
+                    continue;
+                }
+
+                foreach (var path in item.EnumerateArray())
+                {
+                    if (path.ValueKind == JsonValueKind.String)
+                    {
+                        flattened.Add(path.GetString() ?? string.Empty);
+                    }
+                }
+            }
+
+            return flattened;
         }
         catch (JsonException)
         {
-            return "[]";
+            return [];
+        }
+    }
+
+    private static List<string> AlignPathsToSinkCount(IReadOnlyList<string> paths, int sinkCount)
+    {
+        var aligned = new List<string>(sinkCount);
+        for (var i = 0; i < sinkCount; i++)
+        {
+            aligned.Add(i < paths.Count ? paths[i].Trim() : string.Empty);
+        }
+
+        while (aligned.Count > 0 && string.IsNullOrWhiteSpace(aligned[^1]))
+        {
+            aligned.RemoveAt(aligned.Count - 1);
+        }
+
+        return aligned;
+    }
+
+  /// <summary>Sink options in configured list order (same order as the Sinks editor).</summary>
+    private static List<CardKeyValueOption> ParseSinkOptionsInOrder(string? sinksJson)
+    {
+        if (IsEmptyArray(sinksJson))
+        {
+            return [];
+        }
+
+        try
+        {
+            var items = JsonSerializer.Deserialize<List<CardKeyValueOption>>(sinksJson!, JsonOptions) ?? [];
+            return items
+                .Where(item => !string.IsNullOrWhiteSpace(item.Value))
+                .ToList();
+        }
+        catch (JsonException)
+        {
+            return [];
         }
     }
 
@@ -218,7 +307,7 @@ public static class CardPayloadHelper
 
         SetJsonProperty(root, previous, "appliances", NormalizeKeyValueListJson(appliancesJson));
         SetJsonProperty(root, previous, "sinks", NormalizeKeyValueListJson(sinksJson));
-        SetJsonProperty(root, previous, "images", NormalizeImagesJson(imagesJson));
+        SetJsonProperty(root, previous, "images", NormalizeImagesJson(imagesJson, sinksJson));
 
         return root.Count == 0 ? "{}" : root.ToJsonString(JsonOptions);
     }

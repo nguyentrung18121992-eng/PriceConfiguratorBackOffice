@@ -1,0 +1,39 @@
+.tooltip-desc-list-editor .tooltip-desc-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.35rem;
+    margin-bottom: 0.5rem;
+}
+
+.tooltip-desc-list-editor .tooltip-desc-row textarea {
+    flex: 1 1 auto;
+}
+
+.tooltip-desc-list-editor .tooltip-desc-handle {
+    cursor: grab;
+    user-select: none;
+    touch-action: none;
+    line-height: 1.2;
+    margin-top: 0.35rem;
+    padding: 0 0.25rem;
+    font-weight: 700;
+    color: var(--bs-secondary, #6c757d);
+}
+
+.tooltip-desc-list-editor .tooltip-desc-handle:hover {
+    color: var(--bs-primary, #0d6efd);
+}
+
+body.tooltip-desc-list-dragging,
+body.tooltip-desc-list-dragging .tooltip-desc-handle {
+    cursor: grabbing;
+}
+
+.tooltip-desc-list-editor .tooltip-desc-row-dragging {
+    opacity: 0.55;
+}
+
+.tooltip-desc-list-editor .tooltip-desc-row-drop-target {
+    outline: 2px dashed var(--bs-primary, #0d6efd);
+    outline-offset: 2px;
+}

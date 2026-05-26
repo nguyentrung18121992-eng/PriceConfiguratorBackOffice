@@ -1,0 +1,37 @@
+@using PriceConfiguratorBackoffice
+@using PriceConfiguratorBackoffice.Helpers
+@using PriceConfiguratorBackoffice.Services
+@model IEditingPageField<string>
+@inject ConfiguratorMessagesTemplateProvider Templates
+
+@{
+    var readOnly = Model.Property.IsReadOnly;
+    var (brand, language) = CmsRouteLocale.Resolve(Context);
+    var templateJson = Templates.GetTemplateJson(brand, language);
+    var displayValue = string.IsNullOrWhiteSpace(Model.Value) ? "{}" : Model.Value;
+}
+
+<div class="configurator-messages-editor"
+     data-configurator-messages-editor
+     data-readonly="@readOnly.ToString().ToLowerInvariant()">
+    <script type="application/json" class="configurator-messages-template-json">@Html.Raw(templateJson)</script>
+    <input type="hidden"
+           id="@Model.Name"
+           name="@Model.Name"
+           data-messages-json
+           value="@displayValue" />
+
+    <div class="configurator-messages-toolbar mb-2">
+        <input type="search"
+               class="form-control form-control-sm"
+               placeholder="Filter by key or text…"
+               data-messages-filter
+               autocomplete="off" />
+    </div>
+
+    <div class="accordion configurator-messages-accordion" data-messages-groups></div>
+
+    <p class="form-text text-muted mb-0 mt-2">
+        Message keys are fixed for this brand. Edit the text values only; publish still outputs a key → string JSON object.
+    </p>
+</div>

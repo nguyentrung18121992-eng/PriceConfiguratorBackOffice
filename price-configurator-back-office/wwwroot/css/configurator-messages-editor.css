@@ -1,0 +1,20 @@
+.configurator-messages-editor .configurator-messages-key-col {
+    width: 38%;
+    vertical-align: top;
+}
+
+.configurator-messages-editor .configurator-messages-key-col code {
+    word-break: break-all;
+}
+
+.configurator-messages-editor .configurator-messages-group-title {
+    font-weight: 600;
+}
+
+.configurator-messages-editor .configurator-messages-toolbar {
+    max-width: 28rem;
+}
+
+.configurator-messages-editor .accordion-button {
+    font-size: 0.9rem;
+}

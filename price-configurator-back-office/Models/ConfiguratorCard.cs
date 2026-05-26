@@ -29,6 +29,7 @@ public class ConfiguratorCard : BaseEntity
     public string? Title { get; set; }
 
     [Translated]
+    [EditingPage(EditingFields.Textarea)]
     public string? Description { get; set; }
 
     [Display(Name = "Cloudinary image")]
@@ -96,7 +97,7 @@ public class ConfiguratorCard : BaseEntity
         Name = "Images",
         GroupName = OptionsGroup,
         Order = 50,
-        Description = "One image set per sink option; each set lists Cloudinary paths for that bowl size.")]
+        Description = "One Cloudinary path per sink option (same order as Sinks above).")]
     public string? ImagesJson
     {
         get => _imagesJson ?? CardPayloadHelper.FormatJsonArray(CardDataJson, "images");
@@ -148,7 +149,7 @@ public class ConfiguratorCard : BaseEntity
     {
         var appliancesJson = CardPayloadHelper.NormalizeKeyValueListJson(AppliancesJson);
         var sinksJson = CardPayloadHelper.NormalizeKeyValueListJson(SinksJson);
-        var imagesJson = CardPayloadHelper.NormalizeImagesJson(ImagesJson);
+        var imagesJson = CardPayloadHelper.NormalizeImagesJson(ImagesJson, sinksJson);
 
         CardDataJson = CardPayloadHelper.MergeIntoCardDataJson(
             CardDataJson,

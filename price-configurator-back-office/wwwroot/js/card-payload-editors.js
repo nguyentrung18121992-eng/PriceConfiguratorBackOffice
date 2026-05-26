@@ -35,7 +35,7 @@
         );
     }
 
-    function readSinksLabels(form) {
+    function readSinksOrdered(form) {
         const sinksHidden = form?.querySelector('input[type="hidden"][name="SinksJson"]');
         if (!sinksHidden) {
             return [];
@@ -44,10 +44,7 @@
         if (!Array.isArray(items)) {
             return [];
         }
-        return items
-            .slice()
-            .sort((a, b) => (a.key ?? 0) - (b.key ?? 0))
-            .map((item) => item.value ?? "");
+        return items.filter((item) => (item?.value ?? "").trim().length > 0);
     }
 
     /* ---------- Key / value option lists (appliances, sinks) ---------- */
@@ -235,234 +232,150 @@
         });
     }
 
-    /* ---------- Nested image path sets ---------- */
+    /* ---------- One image path per sink (flat array) ---------- */
 
-    function renderPathRow(pathsContainer, path, readOnly) {
-        const row = document.createElement("div");
-        row.className = "input-group input-group-sm mb-1 card-img-path-row";
+    function flattenImagesPayload(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+            return [];
+        }
+        if (typeof data[0] === "string") {
+            return data.map((p) => (p ?? "").trim());
+        }
+        const flat = [];
+        for (const item of data) {
+            if (!Array.isArray(item)) {
+                continue;
+            }
+            for (const path of item) {
+                if (typeof path === "string") {
+                    flat.push(path.trim());
+                }
+            }
+        }
+        return flat;
+    }
 
+    function renderSinkImageRow(tbody, sink, path, readOnly) {
+        const tr = document.createElement("tr");
+        tr.className = "card-img-row";
+        tr.dataset.sinkKey = String(sink?.key ?? 0);
+
+        const labelCell = document.createElement("td");
+        labelCell.className = "text-nowrap";
+        const key = sink?.key ?? 0;
+        const label = sink?.value ?? "";
+        labelCell.innerHTML = `<span class="text-muted small me-1">#${key}</span> ${escapeHtml(label)}`;
+
+        const pathCell = document.createElement("td");
         const input = document.createElement("input");
         input.type = "text";
-        input.className = "form-control";
-        input.placeholder = "Cloudinary path (e.g. Magnet/Price Configurator/…)";
+        input.className = "form-control form-control-sm font-monospace";
+        input.placeholder = "Cloudinary path";
         input.value = path ?? "";
         input.dataset.role = "path";
         if (readOnly) {
             input.readOnly = true;
         }
+        pathCell.appendChild(input);
 
-        row.appendChild(input);
-
-        if (!readOnly) {
-            const removeBtn = document.createElement("button");
-            removeBtn.type = "button";
-            removeBtn.className = "btn btn-beta";
-            removeBtn.textContent = "Remove";
-            removeBtn.dataset.action = "remove-path";
-            row.appendChild(removeBtn);
-        }
-
-        pathsContainer.appendChild(row);
+        tr.append(labelCell, pathCell);
+        tbody.appendChild(tr);
     }
 
-    function renderImageSet(setsContainer, paths, label, readOnly) {
-        const card = document.createElement("div");
-        card.className = "card mb-2 card-img-set";
-        card.dataset.set = "true";
-
-        const header = document.createElement("div");
-        header.className =
-            "card-header py-2 d-flex justify-content-between align-items-center";
-        const title = document.createElement("span");
-        title.className = "fw-semibold small";
-        title.dataset.role = "set-title";
-        title.textContent = label;
-        header.appendChild(title);
-
-        if (!readOnly) {
-            const removeSet = document.createElement("button");
-            removeSet.type = "button";
-            removeSet.className = "btn btn-beta btn-sm";
-            removeSet.textContent = "Remove set";
-            removeSet.dataset.action = "remove-set";
-            header.appendChild(removeSet);
-        }
-
-        const body = document.createElement("div");
-        body.className = "card-body py-2";
-        const pathsContainer = document.createElement("div");
-        pathsContainer.dataset.role = "paths";
-
-        const list = Array.isArray(paths) && paths.length > 0 ? paths : [""];
-        list.forEach((p) => renderPathRow(pathsContainer, p, readOnly));
-
-        if (!readOnly) {
-            const addPath = document.createElement("button");
-            addPath.type = "button";
-            addPath.className = "btn btn-beta btn-sm mt-1";
-            addPath.textContent = "+ Add path";
-            addPath.dataset.action = "add-path";
-            body.append(pathsContainer, addPath);
-        } else {
-            body.appendChild(pathsContainer);
-        }
-
-        card.append(header, body);
-        setsContainer.appendChild(card);
+    function escapeHtml(text) {
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
     }
 
-    function collectImageSets(setsContainer) {
-        return Array.from(setsContainer.querySelectorAll(".card-img-set")).map((set) =>
-            Array.from(set.querySelectorAll('[data-role="path"]'))
-                .map((input) => input.value.trim())
-                .filter((p) => p.length > 0)
+    function collectSinkImagePaths(tbody) {
+        return Array.from(tbody.querySelectorAll(".card-img-row")).map((row) =>
+            (row.querySelector('[data-role="path"]')?.value ?? "").trim()
         );
     }
 
-    function refreshImageSetTitles(setsContainer, sinkLabels) {
-        Array.from(setsContainer.querySelectorAll(".card-img-set")).forEach((set, index) => {
-            const title = set.querySelector('[data-role="set-title"]');
-            if (!title) {
-                return;
-            }
-            const sinkLabel = sinkLabels[index];
-            title.textContent = sinkLabel
-                ? `Sink option ${index + 1}: ${sinkLabel}`
-                : `Image set ${index + 1}`;
+    function buildRowsFromSinks(tbody, sinks, existingPaths, readOnly) {
+        tbody.replaceChildren();
+        sinks.forEach((sink, index) => {
+            const path = index < existingPaths.length ? existingPaths[index] : "";
+            renderSinkImageRow(tbody, sink, path, readOnly);
         });
     }
 
     function initImagesEditor(root) {
         const hidden = root.querySelector('input[type="hidden"][data-card-json]');
-        const setsContainer = root.querySelector("[data-img-sets]");
-        const addSetBtn = root.querySelector("[data-img-add-set]");
-        const alignBtn = root.querySelector("[data-img-align-sinks]");
+        const tbody = root.querySelector("[data-img-rows]");
+        const syncBtn = root.querySelector("[data-img-sync-sinks]");
+        const noSinksAlert = root.querySelector("[data-img-no-sinks]");
         const readOnly = root.dataset.readonly === "true";
         const form = root.closest("form");
 
-        if (!hidden || !setsContainer) {
+        if (!hidden || !tbody) {
             return;
         }
 
         const commit = () => {
-            const sets = collectImageSets(setsContainer).filter((paths) => paths.length > 0);
-            syncHidden(hidden, sets);
+            const paths = collectSinkImagePaths(tbody);
+            syncHidden(hidden, paths);
         };
 
-        const load = () => {
-            setsContainer.replaceChildren();
+        const rebuild = (preservePaths = true) => {
             const parseError = root.querySelector("[data-img-parse-error]");
-            const raw = (hidden.value ?? "").trim();
-            if (raw && raw !== "[]") {
-                try {
-                    const parsed = JSON.parse(raw);
-                    if (!Array.isArray(parsed)) {
-                        throw new Error("not array");
-                    }
-                } catch {
-                    parseError?.classList.remove("d-none");
-                    return;
-                }
-            }
             parseError?.classList.add("d-none");
 
-            const data = parseJson(hidden.value, []);
-            const sets = Array.isArray(data) ? data : [];
-            const sinkLabels = readSinksLabels(form);
-
-            if (sets.length > 0) {
-                sets.forEach((paths, index) => {
-                    const label = sinkLabels[index]
-                        ? `Sink option ${index + 1}: ${sinkLabels[index]}`
-                        : `Image set ${index + 1}`;
-                    renderImageSet(setsContainer, paths, label, readOnly);
-                });
+            const sinks = readSinksOrdered(form);
+            if (sinks.length === 0) {
+                tbody.replaceChildren();
+                noSinksAlert?.classList.remove("d-none");
+                syncHidden(hidden, []);
+                return;
             }
+
+            noSinksAlert?.classList.add("d-none");
+
+            let existingPaths = [];
+            if (preservePaths) {
+                const raw = (hidden.value ?? "").trim();
+                if (raw && raw !== "[]") {
+                    try {
+                        const parsed = JSON.parse(raw);
+                        if (!Array.isArray(parsed)) {
+                            throw new Error("not array");
+                        }
+                        existingPaths = flattenImagesPayload(parsed);
+                    } catch {
+                        parseError?.classList.remove("d-none");
+                        return;
+                    }
+                } else {
+                    existingPaths = collectSinkImagePaths(tbody);
+                }
+            }
+
+            buildRowsFromSinks(tbody, sinks, existingPaths, readOnly);
+            commit();
         };
 
-        load();
+        rebuild(true);
 
-        const onSinksUpdated = (e) => {
-            if (e.detail?.name === "SinksJson" || e.target?.name === "SinksJson") {
-                refreshImageSetTitles(setsContainer, readSinksLabels(form));
-            }
-        };
-        form?.addEventListener("card-payload-updated", onSinksUpdated);
-        form?.addEventListener("change", (e) => {
-            if (e.target?.name === "SinksJson") {
-                refreshImageSetTitles(setsContainer, readSinksLabels(form));
-            }
-        });
-
-        setsContainer.addEventListener("input", (e) => {
+        tbody.addEventListener("input", (e) => {
             if (e.target.matches('[data-role="path"]')) {
                 commit();
             }
         });
 
-        setsContainer.addEventListener("click", (e) => {
-            const btn = e.target.closest("button[data-action]");
-            if (!btn || readOnly) {
-                return;
-            }
+        syncBtn?.addEventListener("click", () => rebuild(true));
 
-            if (btn.dataset.action === "add-path") {
-                const set = btn.closest(".card-img-set");
-                const pathsContainer = set?.querySelector('[data-role="paths"]');
-                if (pathsContainer) {
-                    renderPathRow(pathsContainer, "", readOnly);
-                    commit();
-                    pathsContainer.lastElementChild?.querySelector("input")?.focus();
-                }
-                return;
+        const onSinksUpdated = (e) => {
+            if (e.detail?.name === "SinksJson" || e.target?.name === "SinksJson") {
+                rebuild(true);
             }
-
-            if (btn.dataset.action === "remove-path") {
-                const row = btn.closest(".card-img-path-row");
-                const set = btn.closest(".card-img-set");
-                const pathsContainer = set?.querySelector('[data-role="paths"]');
-                row?.remove();
-                if (pathsContainer && pathsContainer.children.length === 0) {
-                    renderPathRow(pathsContainer, "", readOnly);
-                }
-                commit();
-                return;
+        };
+        form?.addEventListener("card-payload-updated", onSinksUpdated);
+        form?.addEventListener("change", (e) => {
+            if (e.target?.name === "SinksJson") {
+                rebuild(true);
             }
-
-            if (btn.dataset.action === "remove-set") {
-                btn.closest(".card-img-set")?.remove();
-                commit();
-                refreshImageSetTitles(setsContainer, readSinksLabels(form));
-            }
-        });
-
-        addSetBtn?.addEventListener("click", () => {
-            const index = setsContainer.querySelectorAll(".card-img-set").length;
-            const sinkLabels = readSinksLabels(form);
-            const label = sinkLabels[index]
-                ? `Sink option ${index + 1}: ${sinkLabels[index]}`
-                : `Image set ${index + 1}`;
-            renderImageSet(setsContainer, [""], label, readOnly);
-            commit();
-        });
-
-        alignBtn?.addEventListener("click", () => {
-            const sinkLabels = readSinksLabels(form);
-            if (sinkLabels.length === 0) {
-                return;
-            }
-            const existing = collectImageSets(setsContainer);
-            setsContainer.replaceChildren();
-            sinkLabels.forEach((sinkLabel, index) => {
-                const paths = existing[index] ?? [""];
-                renderImageSet(
-                    setsContainer,
-                    paths.length > 0 ? paths : [""],
-                    `Sink option ${index + 1}: ${sinkLabel}`,
-                    readOnly
-                );
-            });
-            commit();
         });
     }
 
@@ -480,12 +393,11 @@
 
         document.querySelectorAll("[data-card-images-editor]").forEach((root) => {
             const hidden = root.querySelector('input[type="hidden"][data-card-json]');
-            const setsContainer = root.querySelector("[data-img-sets]");
-            if (!hidden || !setsContainer) {
+            const tbody = root.querySelector("[data-img-rows]");
+            if (!hidden || !tbody) {
                 return;
             }
-            const sets = collectImageSets(setsContainer).filter((paths) => paths.length > 0);
-            hidden.value = JSON.stringify(sets);
+            hidden.value = JSON.stringify(collectSinkImagePaths(tbody));
         });
     }
 

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Nobia.CmsToolkit.EditingPage;
 using Nobia.CmsToolkit.ListingPage;
 using Nobia.CmsToolkit.Translation;
 
@@ -23,6 +24,7 @@ public class ConfiguratorSection : BaseEntity
     public string? ShortTitle { get; set; }
 
     [Translated]
+    [EditingPage(EditingFields.Textarea)]
     public string? Description { get; set; }
 
     [Translated]
@@ -31,5 +33,6 @@ public class ConfiguratorSection : BaseEntity
 
     [Translated]
     [Display(Name = "Tooltip description (one paragraph per line)")]
+    [TooltipDescriptionList]
     public IList<string> TooltipDescription { get; set; } = [];
 }

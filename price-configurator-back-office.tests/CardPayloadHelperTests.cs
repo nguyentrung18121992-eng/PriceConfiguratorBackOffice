@@ -95,13 +95,47 @@ public class CardPayloadHelperTests
     }
 
     [Fact]
-    public void NormalizeImagesJson_StripsEmptySetsAndPaths()
+    public void NormalizeImagesJson_FlattensLegacyNestedArray()
     {
-        var json = """[[""], ["a.jpg", ""], []]""";
+        var json = """
+            [
+              [
+                "Magnet/Sinks/1.0B/Square.jpg",
+                "Magnet/Sinks/1.5B/Square_1.5.jpg"
+              ]
+            ]
+            """;
 
         var normalized = CardPayloadHelper.NormalizeImagesJson(json);
 
-        Assert.Contains("a.jpg", normalized);
-        Assert.DoesNotContain("\"\"", normalized);
+        Assert.Contains("1.0B/Square.jpg", normalized);
+        Assert.Contains("1.5B/Square_1.5.jpg", normalized);
+        Assert.DoesNotContain("[[", normalized);
+    }
+
+    [Fact]
+    public void NormalizeImagesJson_TrimsToSinkCountAndDropsTrailingEmpty()
+    {
+        var images = """["path-1-bowl", "path-1.5-bowl", "orphan", ""]""";
+        var sinks = """
+            [
+              {"value":"1.5 Bowl","key":1},
+              {"value":"1 Bowl","key":0}
+            ]
+            """;
+
+        var normalized = CardPayloadHelper.NormalizeImagesJson(images, sinks);
+
+        Assert.Contains("path-1-bowl", normalized);
+        Assert.Contains("path-1.5-bowl", normalized);
+        Assert.DoesNotContain("orphan", normalized);
+    }
+
+    [Fact]
+    public void ParseImagesToFlatList_ReadsFlatStrings()
+    {
+        var paths = CardPayloadHelper.ParseImagesToFlatList("""["a.jpg", "b.jpg"]""");
+
+        Assert.Equal(["a.jpg", "b.jpg"], paths);
     }
 }

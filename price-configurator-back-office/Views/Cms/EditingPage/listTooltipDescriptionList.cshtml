@@ -1,0 +1,58 @@
+@using System.Text.Json
+@model IEditingPageField
+
+@{
+    var readOnly = Model.Property.IsReadOnly;
+    var items = Model.BaseValue switch
+    {
+        IList<string> list => list.ToList(),
+        IEnumerable<string> seq => seq.ToList(),
+        JsonElement { ValueKind: JsonValueKind.Array } json => json.EnumerateArray()
+            .Select(e => e.GetString() ?? string.Empty)
+            .ToList(),
+        _ => new List<string>(),
+    };
+}
+
+<div class="tooltip-desc-list-editor"
+     data-tooltip-desc-list-editor
+     data-field-name="@Model.Name"
+     data-readonly="@readOnly.ToString().ToLowerInvariant()">
+    <div class="tooltip-desc-rows" data-tooltip-desc-rows>
+        @for (var i = 0; i < items.Count; i++)
+        {
+            <div class="tooltip-desc-row" data-tooltip-desc-row>
+                @if (!readOnly)
+                {
+                    <span class="tooltip-desc-handle"
+                          data-tooltip-desc-handle
+                          role="button"
+                          tabindex="0"
+                          title="Drag to reorder"
+                          aria-label="Drag to reorder">⋮⋮</span>
+                }
+                <textarea class="form-control form-control-sm"
+                          name="@($"{Model.Name}[{i}]")"
+                          rows="2"
+                          data-tooltip-desc-value
+                          @(readOnly ? "readonly" : null)>@items[i]</textarea>
+                @if (!readOnly)
+                {
+                    <button type="button"
+                            class="btn btn-sm btn-outline-danger"
+                            data-tooltip-desc-remove
+                            title="Remove paragraph">×</button>
+                }
+            </div>
+        }
+    </div>
+
+    @if (!readOnly)
+    {
+        <button type="button" class="btn btn-beta btn-sm mt-2" data-tooltip-desc-add>+ Add paragraph</button>
+    }
+
+    <p class="form-text text-muted mb-0 mt-2">
+        Drag the ⋮⋮ handle to reorder paragraphs. Each row is one paragraph in the section tooltip.
+    </p>
+</div>

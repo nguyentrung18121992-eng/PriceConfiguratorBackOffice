@@ -79,8 +79,11 @@ public static class Startup
         });
 
         services.AddSingleton<IConfigSnapshotBuilder, ConfigSnapshotBuilder>();
-        services.AddSingleton<Nobia.CmsToolkit.Context.IPreSaveContextChangeListener, RangePriceSetPreSaveListener>();
-        services.AddSingleton<Nobia.CmsToolkit.Context.IPreSaveContextChangeListener, ConfiguratorCardPreSaveListener>();
+        services.AddSingleton<ConfiguratorMessagesTemplateProvider>();
+        services.AddSingleton<RangePriceSetPreSaveListener>();
+        services.AddSingleton<ConfiguratorCardPreSaveListener>();
+        services.AddSingleton<ConfiguratorMessagesPreSaveListener>();
+        services.AddSingleton<Nobia.CmsToolkit.Context.IPreSaveContextChangeListener, CompositePreSaveListener>();
         services.AddScoped<IPublishedConfigurationQuery, PublishedConfigurationQuery>();
         services.AddScoped<IPublishService, PublishService>();
         services.AddScoped<IPreviewTokenService, PreviewTokenService>();
@@ -163,6 +166,10 @@ public static class Startup
 
                 c.AddFrontendDependency(FrontendDependencyType.StyleSheet, "/css/card-payload-editors.css");
                 c.AddFrontendDependency(FrontendDependencyType.JavaScript, "/js/card-payload-editors.js");
+                c.AddFrontendDependency(FrontendDependencyType.StyleSheet, "/css/configurator-messages-editor.css");
+                c.AddFrontendDependency(FrontendDependencyType.JavaScript, "/js/configurator-messages-editor.js");
+                c.AddFrontendDependency(FrontendDependencyType.StyleSheet, "/css/tooltip-description-list.css");
+                c.AddFrontendDependency(FrontendDependencyType.JavaScript, "/js/tooltip-description-list.js");
             });
 
         services.AddSingleton<IValueConverter, InvariantCultureValueConverter>();

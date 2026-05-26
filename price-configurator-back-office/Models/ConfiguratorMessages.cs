@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using CmsToolkit.SingularSupport;
-using Nobia.CmsToolkit.Translation;
+using PriceConfiguratorBackoffice.Helpers;
+using PriceConfiguratorBackoffice.Services;
 
 namespace PriceConfiguratorBackoffice.Models;
 
@@ -10,6 +11,13 @@ namespace PriceConfiguratorBackoffice.Models;
 [Singular]
 public class ConfiguratorMessages : BaseEntity
 {
-    [Display(Name = "Messages JSON (key → string)")]
+    [ConfiguratorMessagesEditor]
+    [Display(Name = "Messages", Description = "Keys are fixed per brand. Edit the text values only.")]
     public string MessagesJson { get; set; } = "{}";
+
+    public void NormalizeMessages(ConfiguratorMessagesTemplateProvider templates)
+    {
+        var template = templates.GetTemplate(Brand, Language);
+        MessagesJson = ConfiguratorMessagesHelper.NormalizeMessagesJson(MessagesJson, template);
+    }
 }
